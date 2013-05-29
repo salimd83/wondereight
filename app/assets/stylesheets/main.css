@@ -1,9 +1,9 @@
 /*@import url(http://fonts.googleapis.com/css?family=Roboto:500,400,700,300,100);*/
 
-body{ 
-	padding: 40px 50px; 
-	margin: 0; 
-	font-family: Helvetica, sans-serif; 
+body{
+	padding: 40px 50px;
+	margin: 0 !important;
+	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: 500;
 }
@@ -13,10 +13,10 @@ a{ text-decoration: none; color: #404040; }
 a:hover{ text-decoration: underline; }
 .hidden{ display: none; }
 .clear{ clear: both; }
-h2{ 
-	font-family: Helvetica, sans-serif; 
-	font-weight: 500; 
-	font-size: 30px; 
+h2{
+	font-family: Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 30px;
 	line-height: 32px;
 }
 h3{ font-size: 22px; font-weight: 500; line-height: 26px; }
@@ -32,7 +32,7 @@ header.main{ padding: 0 5px; }
 	/* Header: Logo */
 	header.main #logo{ float: left; width: 20%; clear: both; }
 	/* Header: main navigation & socials */
-	header.main nav#menu, 
+	header.main nav#menu,
 	header.main nav#socials{ float: right; text-align: right; }
 	header.main nav#menu ul,
 	header.main nav#socials ul{ float: right; }
@@ -41,7 +41,7 @@ header.main{ padding: 0 5px; }
 	header.main nav#menu ul li a,
 	header.main nav#socials ul li a{ padding: 7px 3px; float: left; }
 	header.main nav#menu ul{ margin-right: 10px; }
-	header.main nav#menu ul li a{ 
+	header.main nav#menu ul li a{
 		/*font-family: 'Roboto', arial, sans-serif;
 		font-weight: bold;*/
 		font-size: 16px;
@@ -66,17 +66,17 @@ header.main{ padding: 0 5px; }
 	header.main nav#socials ul li a:hover{ opacity:0.5; }
 	header.main nav ul li#search{ margin-left: 25px; }
 	/* Header: submenu */
-	header.main nav#menu ul ul.sub{ 
-		position: absolute; 
-		top: 36px; 
-		left: 1px; 
+	header.main nav#menu ul ul.sub{
+		position: absolute;
+		top: 36px;
+		left: 1px;
 		background: #000;
 		overflow: hidden;
 		height: 0;
 		z-index: 2000;
 	}
 	header.main nav#menu ul ul.sub li{  clear: both; border-bottom: #666 1px dotted; }
-	header.main nav#menu ul ul.sub li a{ 
+	header.main nav#menu ul ul.sub li a{
 		padding: 8px 15px;
 		width: 140px;
 		text-align: left;
@@ -90,9 +90,9 @@ header.main{ padding: 0 5px; }
 	header.main nav#menu2{ display: none; width: 100%; position: relative; z-index: 1000; clear: both; }
 	header.main nav#menu2 ul{ height: 40px; overflow: hidden; width: 100%; padding-top: 10px; }
 	header.main nav#menu2 ul li{ float: none; clear: both; display: none; width: 100%; }
-	header.main nav#menu2 ul li a{ 
-		background: #000; 
-		color: #fff; 
+	header.main nav#menu2 ul li a{
+		background: #000;
+		color: #fff;
 		text-decoration: none;
 		/*font-family: 'Roboto', sans-serif;*/
 		font-size: 16px;
@@ -132,9 +132,9 @@ header.main{ padding: 0 5px; }
 		background: rgba(0,0,0,0.85);
 		line-height: 14px;
 	}
-	.page #portfolio li a p span{ 
-		padding: 9px 12px; 
-		display: block; 
+	.page #portfolio li a p span{
+		padding: 9px 12px;
+		display: block;
 		color: #fff;
 		/*font-family: 'Roboto', sans-serif;*/
 		font-size: 13px;
@@ -146,12 +146,12 @@ header.main{ padding: 0 5px; }
 		color: #ddd;
 	}
 	/* Page: prev/next */
-	a.prev, 
-	a.next{ 
-		position: fixed; 
-		top: 50%; 
-		display: block; 
-		width: 75px; 
+	a.prev,
+	a.next{
+		position: fixed;
+		top: 50%;
+		display: block;
+		width: 75px;
 		height: 64px;
 		disp lay: none;
 	}
@@ -159,36 +159,36 @@ header.main{ padding: 0 5px; }
 	a.next{ right: -75px; background: #000 url(../images/next.png) center center no-repeat; }
 
 /* Work */
-#work .col span, 
-#work .col-1 span, 
-#work .col-2 span{ 
+#work .col span,
+#work .col-1 span,
+#work .col-2 span{
 	fl oat: left;
-	display: block; 
-	padding: 5px; 
+	display: block;
+	padding: 5px;
 }
 #work figure img{ display: block; }
-#work figure .col img, 
-#work figure .col-1 img, 
+#work figure .col img,
+#work figure .col-1 img,
 #work figure .col-2 img{ width: 100%; }
-#work section.info{ 
-	clear: both; 
-	width: 100%; 
-	float: left; 
+#work section.info{
+	clear: both;
+	width: 100%;
+	float: left;
 	font-family: Helvetica, sans-serif;
 	margin-top: 20px;
 	position: relative;
 }
 #work section.info h3{ font-size: 24px; font-weight: bold; }
-#work section.info p{ 
-	margin-top: 14px; 
-	font-size: 14px; 
+#work section.info p{
+	margin-top: 14px;
+	font-size: 14px;
 	line-height: 20px;
 	/*letter-spacing: 0.07em;*/
 	color: #404040;
 	padding-right: 60px;
 }
-#work section.info ul{ 
-	margin-top: 40px; 
+#work section.info ul{
+	margin-top: 40px;
 	border-top: #404040 1px solid;
 	margin-right: 20px;
 }
@@ -202,7 +202,7 @@ header.main{ padding: 0 5px; }
 	line-height: 20px;
 }
 #work section.info ul li strong{ font-size: 16px; }
-#work section.info .socials{   
+#work section.info .socials{
 	floa t: right;
 	margin-top: 40px;
 	position: absolute;
@@ -270,14 +270,14 @@ header.main{ padding: 0 5px; }
 #about #slider a{ width: 100%; }
 /* About: partner section styles */
 #about #partners ul{ margin-top: 30px; }
-#about #partners ul li{ 
-	width: 165px;  
+#about #partners ul li{
+	width: 165px;
 }
 #about #partners ul li p{ margin-top: 4px; color: #424242; }
 #about #partners ul li h5{ color: #000; }
-#about #partners ul li div{  
+#about #partners ul li div{
 	border-bottom:#b6b6b6 1px solid;
-	padding-bottom: 10px; 
+	padding-bottom: 10px;
 	margin-bottom: 10px;
 }
 #about #recipe p{ margin-top: 15px; }
@@ -307,7 +307,7 @@ header.main{ padding: 0 5px; }
 	right: 5px;
 }
 
-#about div.socials span{ 
+#about div.socials span{
 	font-size: 13px;
 	color: #404040;
 	font-family: Helvetica, sans-serif;
@@ -358,7 +358,7 @@ header.main{ padding: 0 5px; }
 }
 
 /* Footer */
-footer{ 
+footer{
 	clear: both;
 	border-top: #000 3px solid;
 	margin: 0 5px;
