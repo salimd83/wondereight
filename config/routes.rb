@@ -1,4 +1,10 @@
 Wondereight::Application.routes.draw do
+  get "works/index"
+
+  get "works/show"
+
+  root to: "works#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
