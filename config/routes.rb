@@ -1,9 +1,13 @@
 Wondereight::Application.routes.draw do
+  get "about/index"
+
   get "works/index"
 
   get "works/show"
 
   root to: "works#index"
+  match "/works/:cat" => 'works#index'
+  match "/about" => "about#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,2 +1,54 @@
-<h1>Works#index</h1>
-<p>Find me in app/views/works/index.html.erb</p>
+<style type="text/css">
+  div#gulfood{
+    display: none;
+    width: 40%;
+    hei ght: 549px;
+    -moz-box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 0 25px rgba(0,0,0,0.8);
+    box-shadow: 0 0 25px rgba(0,0,0,0.8);
+  }
+
+  div#gulfood img{
+    width: 100%;
+    height: auto;
+  }
+
+  div#gulfood a{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    display: block;
+  }
+  .bModal{
+    /*background: #000 url(images/dialog-mask.png) top center no-repeat;*/
+  }
+</style>
+
+<section id="home" class="page">
+  <ul id="portfolio">
+
+    <% if @works.any? %>
+      <% @works.each do |work| %>
+
+        <li class="<%= work.category %>">
+          <div>
+            <a href="work.php?id=<%= work.id %>"
+               data-image="<%= work.photo_over.url(:default) %>">
+              <section>
+                <img src="<%= work.photo.url(:default) %>" alt="">
+                <p><span><%= work.caption.html_safe %></span></p>
+              </section>
+            </a>
+          </div>
+        </li>
+
+      <% end %>
+    <% else %>
+      <h2>No project has been added yet!</h2>
+    <% end %>
+  </ul>
+  <div class="clear"></div>
+</section>

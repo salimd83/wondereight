@@ -1,6 +1,6 @@
 <header class="main">
     <div id="logo">
-      <%= link_to image_tag('wondereight-logo.gif', alt: 'Wondereight Logo'), '#' %>
+      <%= link_to image_tag('wondereight-logo.gif', alt: 'Wondereight Logo'), root_path %>
     </div>
     <nav id="socials">
       <ul>
@@ -32,13 +32,14 @@
         <li class="selected">
           <%= link_to "work", "#" %>
           <ul class="sub works-filters">
-            <li><a href="index.php?cat=branding">Branding</a></li>
-            <li><a href="index.php?cat=website">Websites</a></li>
-            <li><a href="index.php?cat=restaurants">Restaurants</a></li>
-            <li><a href="index.php?cat=illustration">Illustration</a></li>
+            <!-- <li><a href="index.php?cat=branding">Branding</a></li> -->
+            <li><%= link_to "Branding", "/works/Branding/" %></li>
+            <li><%= link_to "Websites", "/works/Website/" %></li>
+            <li><%= link_to "Restaurants", "/works/Restaurants/" %></li>
+            <li><%= link_to "Illustration", "/works/Illustration/" %></li>
           </ul>
         </li>
-        <li><a href="about.php">About W8</a></li>
+        <li><%= link_to "About W8", about_path %></li>
         <li><a href="#">Showcases</a>
           <ul class="sub">
             <li><a href="showcase/branding/W8_Branding_Showcase.pdf" target="_blank">Branding.pdf</a></li>
