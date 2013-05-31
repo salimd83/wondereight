@@ -1,0 +1,1 @@
+<?php header('Location: W8_Illustration_Showcase.pdf'); ?>
