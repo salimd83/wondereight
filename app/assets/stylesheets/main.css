@@ -153,7 +153,6 @@ header.main{ padding: 0 5px; }
 		display: block;
 		width: 75px;
 		height: 64px;
-		disp lay: none;
 	}
 	a.prev{ left:-75px; background: #000 url(../images/prev.png) center center no-repeat; }
 	a.next{ right: -75px; background: #000 url(../images/next.png) center center no-repeat; }
