@@ -5,10 +5,10 @@
 @media screen and (max-width: 1290px) {
 	.page #portfolio li a p span{ padding: 8px 12px; }
 	.page #portfolio li a p span em{ display: block; padding-top: 2px; }
-	#work section.info .socials span{ 
-		clear: both; 
-		display: block; 
-		float: none; 
+	#work section.info .socials span{
+		clear: both;
+		display: block;
+		float: none;
 		margin-bottom: 2px;
 		width: 50px;
 	}
@@ -21,10 +21,10 @@
 	.page #portfolio li{ width: 33.3% }
 	#work section.info ul li{ padding-right: 20px; }
 	#work section.info p{ padding-right: 40px; }
-	#work section.info .socials span{ 
-		clear: both; 
-		display: block; 
-		float: none; 
+	#work section.info .socials span{
+		clear: both;
+		display: block;
+		float: none;
 		margin-bottom: 2px;
 		width: 50px;
 	}
@@ -41,16 +41,15 @@
 
 	header.main nav#menu { display: none; }
 	header.main nav#menu2 { display: block; }
-	
+
 	a.prev,
-	a.next{ 
-		width: 60px; 
-		hei ght: 60px;  
+	a.next{
+		width: 60px;
 	}
 
 	#about .col-2{ width: 100%; }
 	#about .col-2 section{ padding: 0 0 0 5px; }
-	
+
 	#about section p.big {
 		font-size: 24px;
 		line-height: 34px;
@@ -67,10 +66,10 @@
 
 	header.main nav#menu ul li{ display: block !important; float: right; }
 	body{ padding: 40px 30px; }
-	a.prev, 
-	a.next{ 
-		width: 45px; 
-		height: 60px;  
+	a.prev,
+	a.next{
+		width: 45px;
+		height: 60px;
 	}
 	#work figure .col-2{ width: 100%; }
 	#work figure .col-1{ width: 100%; }
@@ -89,13 +88,13 @@
 }
 
 @media screen and (max-width: 400px) {
-	a.prev, 
-	a.next{ 
-		width: 30px; 
-		height: 60px;  
+	a.prev,
+	a.next{
+		width: 30px;
+		height: 60px;
 	}
 	body{ padding: 20px; }
-	
+
 	#work section.info{ margin-bottom: 40px; }
 	#work section.info .col-2{ width: 100%; }
 	#work section.info .col-1{ width: 100%; }
