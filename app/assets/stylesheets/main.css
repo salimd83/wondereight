@@ -259,7 +259,7 @@ header.main{ padding: 0 5px; }
 #about section h4{ color: #1c1c1c; }
 #about section p.big{ font-size: 30px; line-height: 38px; margin-bottom: 20px; }
 #about section p.big strong{ font-weight: normal; text-decoration: underline; }
-#about section p{ margin-top: 15px; line-height:  }
+#about section p{ margin-top: 15px;}
 #about h2{ margin-top: 35px; }
 #about h4{ margin-top: 6px; }
 #about strong{ color: #000; }
