@@ -161,7 +161,6 @@ header.main{ padding: 0 5px; }
 #work .col span,
 #work .col-1 span,
 #work .col-2 span{
-	fl oat: left;
 	display: block;
 	padding: 5px;
 }
@@ -202,7 +201,6 @@ header.main{ padding: 0 5px; }
 }
 #work section.info ul li strong{ font-size: 16px; }
 #work section.info .socials{
-	floa t: right;
 	margin-top: 40px;
 	position: absolute;
 	bottom: 0;
