@@ -1,2 +1,52 @@
-<h1>Works#show</h1>
-<p>Find me in app/views/works/show.html.erb</p>
+<section id="work" class="page">
+
+  <figure>
+    <div class="col">
+      <span><%= image_tag @work.photo_main.url("default"), alt: strip_tags(@work.caption) %></span>
+    </div>
+
+    <% if @work.workgalleries.any? %>
+
+      <% @work.workgalleries.each do |gallery| %>
+        <div class="col-2">
+          <span>
+            <%= image_tag gallery.photo.url(:default), alt: gallery.title %>
+          </span>
+        </div>
+      <% end %>
+
+    <% end %>
+    <?php //for($i=2; $i<=$filecount; $i++): ?>
+     <!--  <div class="col-2">
+        <span><img src="<?php echo $imagePath; ?>/img-<?php echo $i ?>.jpg" alt=""></span>
+      </div> -->
+    <?php //endfor; ?>
+    <div class="clear"></div>
+  </figure>
+
+  <section class="info">
+    <div class="col-2">
+      <span>
+        <h3><%= @work.title %></h3>
+        <%= @work.description.html_safe %>
+      </span>
+    </div>
+    <div class="col-1">
+      <span>
+        <ul>
+          <li><strong>CLIENT</strong>  <%= @work.client %></li>
+          <li><strong>TASK</strong>  <%= @work.task %></li>
+          <li><strong>REGION</strong>  <%= @work.region %></li>
+          <li><strong>CREATED</strong>  <%= @work.created %></li>
+        </ul>
+      </span>
+    </div>
+    <div class="col-1">
+      <%= render "layouts/socials" %>
+    </div>
+    <div class="clear"></div>
+  </section>
+
+  <div class="clear"></div>
+</section>
+

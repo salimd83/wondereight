@@ -35,7 +35,7 @@
 
         <li class="<%= work.category %>">
           <div>
-            <a href="work.php?id=<%= work.id %>"
+            <a href="/work/<%= work.title.parameterize %>/<%= work.id %>"
                data-image="<%= work.photo_over.url(:default) %>">
               <section>
                 <img src="<%= work.photo.url(:default) %>" alt="">

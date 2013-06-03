@@ -2,7 +2,7 @@ namespace :db do
   desc "Fill database with sample data"
   task populate: :environment do
 
-    Work.create!(
+    work1 = Work.create!(
       title: "Baker and More",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/baker-and-more.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/baker-and-more.jpg")),
@@ -20,7 +20,13 @@ namespace :db do
       category: "Restaurants",
     )
 
-    Work.create!(
+    6.times do |n|
+      work1.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work1.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work2 = Work.create!(
       title: "Origami",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/origami.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/origami.jpg")),
@@ -36,7 +42,13 @@ namespace :db do
       category: "Restaurants",
     )
 
-    Work.create!(
+    8.times do |n|
+      work2.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work2.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work3 = Work.create!(
       title: "Aspasuc",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/aspasuc.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/aspasuc.jpg")),
@@ -50,7 +62,13 @@ namespace :db do
       category: "Website",
     )
 
-    Work.create!(
+    2.times do |n|
+      work3.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work3.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work4 = Work.create!(
       title: "Cozmo Cafe",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/cozmo-cafe.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/cozmo-cafe.jpg")),
@@ -64,8 +82,13 @@ namespace :db do
       category: "Restaurants",
     )
 
+    6.times do |n|
+      work4.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work4.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
 
-    Work.create!(
+    work5 = Work.create!(
       title: "Falafel Aboulziz",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/falafel-aboulziz.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/falafel-aboulziz.jpg")),
@@ -79,7 +102,14 @@ namespace :db do
       created: "2012",
       category: "Restaurants",
     )
-    Work.create!(
+
+    7.times do |n|
+      work5.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work5.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work6 = Work.create!(
       title: "Uptown 966",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/uptown-966.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/uptown-966.jpg")),
@@ -93,7 +123,14 @@ namespace :db do
       created: "2011",
       category: "Restaurants",
     )
-    Work.create!(
+
+    3.times do |n|
+      work6.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work6.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work7 = Work.create!(
       title: "Classic Burger",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/classic-burger.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/classic-burger.jpg")),
@@ -107,7 +144,14 @@ namespace :db do
       created: "2010",
       category: "Restaurants",
     )
-    Work.create!(
+
+    9.times do |n|
+      work7.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work7.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work8 = Work.create!(
       title: "Atibaia",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/atibaia.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/atibaia.jpg")),
@@ -121,7 +165,13 @@ namespace :db do
       category: "Branding",
     )
 
-    Work.create!(
+    6.times do |n|
+      work8.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work8.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work9 = Work.create!(
       title: "Tomatomatic Pizza",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/tomatomatic-pizza.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/tomatomatic-pizza.jpg")),
@@ -135,8 +185,13 @@ namespace :db do
       category: "Restaurants",
     )
 
+    6.times do |n|
+      work9.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work9.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
 
-    Work.create!(
+    work10 = Work.create!(
       title: "Castania",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/castania.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/castania.jpg")),
@@ -150,7 +205,13 @@ namespace :db do
       category: "Branding",
     )
 
-    Work.create!(
+    3.times do |n|
+      work10.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work10.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work11 = Work.create!(
       title: "The Met",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/the-met.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/the-met.jpg")),
@@ -164,7 +225,13 @@ namespace :db do
       category: "Restaurants",
     )
 
-    Work.create!(
+    5.times do |n|
+      work11.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work11.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work12 = Work.create!(
       title: "Roger's Diner",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/rogers-diner.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/rogers-diner.jpg")),
@@ -179,7 +246,13 @@ namespace :db do
       category: "Retaurants",
     )
 
-    Work.create!(
+    6.times do |n|
+      work12.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/rogers-diner/img-#{n+2}.jpg"))
+      )
+    end
+
+    work13 = Work.create!(
       title: "Hoover Lebanon",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/hoover-lebanon.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/hoover-lebanon.jpg")),
@@ -193,7 +266,13 @@ namespace :db do
       category: "Branding",
     )
 
-  Work.create!(
+    6.times do |n|
+      work13.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work13.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work14 = Work.create!(
       title: "Dunlop Lebanon",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/dunlop-lebanon.jpg")),
       photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/dunlop-lebanon.jpg")),
@@ -207,7 +286,13 @@ namespace :db do
       category: "Branding",
     )
 
-    Work.create!(
+    5.times do |n|
+      work14.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work14.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work15 = Work.create!(
       title: "IDM",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/idm.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/idm.jpg")),
@@ -221,7 +306,13 @@ namespace :db do
       category: "Branding",
     )
 
-    Work.create!(
+    6.times do |n|
+      work15.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work15.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work16 = Work.create!(
       title: "Cafe Hamra",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/cafe-hamra.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/cafe-hamra.jpg")),
@@ -235,7 +326,13 @@ namespace :db do
       category: "Restaurants",
     )
 
-    Work.create!(
+    6.times do |n|
+      work16.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work16.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work17 = Work.create!(
       title: "WokBox",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/wokbox.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/wokbox.jpg")),
@@ -249,7 +346,13 @@ namespace :db do
       category: "Branding",
     )
 
-    Work.create!(
+    6.times do |n|
+      work17.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work17.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work18 = Work.create!(
       title: "Alaia",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/alaia.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/alaia.jpg")),
@@ -263,7 +366,13 @@ namespace :db do
       category: "Branding",
     )
 
-    Work.create!(
+    3.times do |n|
+      work18.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work18.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
+
+    work19 = Work.create!(
       title: "Bob's Easy Diner",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/bobs-easy-diner.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/bobs-easy-diner.jpg")),
@@ -276,5 +385,11 @@ namespace :db do
       created: "2012",
       category: "Restaurant",
     )
+
+    5 .times do |n|
+      work19.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/bobs-easy-diner/img-#{n+2}.jpg"))
+      )
+    end
   end
 end

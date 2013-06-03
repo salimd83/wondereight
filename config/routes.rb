@@ -1,4 +1,6 @@
 Wondereight::Application.routes.draw do
+  get "articles/index"
+
   get "about/index"
 
   get "works/index"
@@ -8,6 +10,8 @@ Wondereight::Application.routes.draw do
   root to: "works#index"
   match "/works/:cat" => 'works#index'
   match "/about" => "about#index"
+  match "/work/:project/:id" => 'works#show'
+  match "/press" => "articles#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
