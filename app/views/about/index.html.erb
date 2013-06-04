@@ -2,7 +2,7 @@
 <section id="about" class="page">
 
   <div class="col-2 first">
-    <section class="intro" style="margin-top:30px;">
+    <section class="intro">
         <div id="slider">
           <a><%= image_tag('about-main.jpg', alt: "") %></a>
           <a><%= image_tag('w8-team.jpg', alt: "") %></a>
@@ -36,6 +36,31 @@
       <hr>
     </section>
 
+    <section id="recipe">
+      <hgroup>
+        <h2>WHAT WE DO</h2>
+      </hgroup>
+      <p>
+        Our practices range from brand creation, to visual identity design, brochures,
+        posters, packaging, stands, signage, graphic decoration, communications, above
+        &amp; below the line campaigns, marketing strategy, online and ambient media
+        buying, copywriting, creative copy and design consultancy. We also design and
+        develop websites and interactive solutions, advanced UX, Apps, animation and
+        game design. We specialize as well in Illustration and character creation.
+      </p>
+
+    </section>
+
+
+  </div>
+
+  <div class="col-2 last">
+
+    <section class="map" id="map">
+      <%= image_tag "map.jpg", alt: "Wonder Eight map location", width: "100%", height: "100%" %>
+      <hr>
+    </section>
+
     <section id="workshop">
       <%=
         link_to("http://www.workshop-gallery.com/", target: "_blank", style: "display:block") do
@@ -59,34 +84,100 @@
           under the spot light, in a mission to encourage the diversity and experimentation
           of art in the region.
         </p>
-        <hr>
       <% end %>
     </section>
   </div>
 
+  <div class="col">
+    <section id="team">
+      <hr>
+      <ul>
+        <li>
+          <%= image_tag "team/Boudy_Nasrala.jpg", alt: "" %>
+          <h5>Boudy Nasrala</h5>
+          <p>Managing Partner</p>
+        </li>
+        <li>
+          <%= image_tag "team/Walid_Nasrala.jpg", alt: "" %>
+          <h5>Walid Nasrala</h5>
+          <p>Creative Director</p>
+        </li>
+        <li>
+          <%= image_tag "team/Karim_AbouRizk.jpg", alt: "" %>
+          <h5>Karim AbouRizk</h5>
+          <p>Designer / Brand Consultant</p>
+        </li>
+        <li>
+          <%= image_tag "team/Nisreen_Sarkis.jpg", alt: "" %>
+          <h5>Nisreen Sarkis</h5>
+          <p>Designer / Branding Specialist</p>
+        </li>
+        <li>
+          <%= image_tag "team/Lea_Heshme.jpg", alt: "" %>
+          <h5>Lea Heshme</h5>
+          <p>Designer / Branding Specialist</p>
+        </li>
+        <li>
+          <%= image_tag "team/Hiba_Moujabber.jpg", alt: "" %>
+          <h5>Hiba Moujabber</h5>
+          <p>Digital UX/UI Designer</p>
+        </li>
+        <li>
+          <%= image_tag "team/Noor_Aghar.jpg", alt: "" %>
+          <h5>Noor Aghar</h5>
+          <p>Graphic Designer</p>
+        </li>
+        <li>
+          <%= image_tag "team/Maher_Bayoumi.jpg", alt: "" %>
+          <h5>Maher Bayoumi</h5>
+          <p>Graphic Designer</p>
+        </li>
+        <li>
+          <%= image_tag "team/Salim_Dirani.jpg", alt: "" %>
+          <h5>Salim Dirani</h5>
+          <p>Web Developer</p>
+        </li>
+        <li>
+          <%= image_tag "team/Cynthia_Farhan.jpg", alt: "" %>
+          <h5>Cynthia Farhan</h5>
+          <p>Media Specialist</p>
+        </li>
+        <li>
+          <%= image_tag "team/John_Fayad.jpg", alt: "" %>
+          <h5>John Fayad</h5>
+          <p>Senior Web Developer</p>
+        </li>
+        <li>
+          <%= image_tag "team/Lama_BouGhannam.jpg", alt: "" %>
+          <h5>Lama BouGhannam</h5>
+          <p>Senior Web Designer</p>
+        </li>
+        <li>
+          <%= image_tag "team/Yasmine_Zalek.jpg", alt: "" %>
+          <h5>Yasmine Zalek</h5>
+          <p>Project Manager / Branding Strategist</p>
+        </li>
+        <li>
+          <%= image_tag "team/Suzanne_Sayegh.jpg", alt: "" %>
+          <h5>Suzanne Sayegh</h5>
+          <p>PR Manager</p>
+        </li>
+        <li>
+          <%= image_tag "team/Mireille_Chamoun.jpg", alt: "" %>
+          <h5>Mireille Chamoun</h5>
+          <p>Administrative Assistant</p>
+        </li>
+      </ul>
+    </section>
+  </div>
+
   <div class="col-2 last">
-    <section id="recipe">
-      <hgroup>
-        <h2>WHAT WE DO</h2>
-      </hgroup>
-      <p>
-        Our practices range from brand creation, to visual identity design, brochures,
-        posters, packaging, stands, signage, graphic decoration, communications, above
-        &amp; below the line campaigns, marketing strategy, online and ambient media
-        buying, copywriting, creative copy and design consultancy. We also design and
-        develop websites and interactive solutions, advanced UX, Apps, animation and
-        game design. We specialize as well in Illustration and character creation.
-      </p>
+    &nbsp;
+  </div>
 
-      <hr>
-    </section>
-
-    <section class="map" id="map">
-      <%= image_tag "map.jpg", alt: "Wonder Eight map location", width: "100%", height: "100%" %>
-      <hr>
-    </section>
-
+  <div class="col-2 last">
     <section id="partners">
+      <hr>
       <h2>OUR KEY PARTNERS</h2>
       <ul>
         <li class="box">
@@ -273,6 +364,7 @@
       <%= render "layouts/socials" %>
     </section>
   </div>
+
 
   <div class="col first">
     <section id="clients">
