@@ -131,7 +131,7 @@ namespace :db do
     end
 
     work7 = Work.create!(
-      title: "Classic Burger",
+      title: "Classic Burger Joint",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/classic-burger.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/classic-burger.jpg")),
       photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/classic-burger/classic-burger-main.jpg")),

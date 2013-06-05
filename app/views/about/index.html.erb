@@ -1,4 +1,4 @@
-
+<% provide(:aboutMenu, 'selected') %>
 <section id="about" class="page">
 
   <div class="col-2 first">
@@ -25,8 +25,7 @@
         also on board it gathers a handful of highly skilled creative designers, web
         developers and marketing strategists who enjoy a bespoke work environment, made
         to inspire and interact with the local design and art community. This creative
-        space regroups a design agency, a prototyping workshop, a facility for trainings
-        and talks, a handpicked book library and an art exhibition space.
+        space regroups a design agency, a <%= link_to "prototyping workshop", workshop_path %>, a facility for <%= link_to "trainings and talks", eroom_path %>, a handpicked <%= link_to "book library", library_path %> and an <%= link_to "art exhibition space", "http://workshop-gallery.com", target: "_blank" %>.
       </p>
       <p>
         This multifaceted environment keeps on renewing itself and creates a constant
@@ -80,7 +79,7 @@
     <section id="workshop">
       <hr>
       <%=
-        link_to("http://www.workshop-gallery.com/", target: "_blank", style: "display:block") do
+        link_to("http://www.workshop-gallery.com/", target: "_blank", style: "display:block;text-decoration:none") do
       %>
         <%=
           image_tag "workshop-logo.gif",
@@ -92,7 +91,7 @@
         %>
         <h2 style="margin-top:0">WORKSHOP GALLERY </h2>
         <p>
-          <%= link_to "Workshop gallery", "http://workshop-gallery.com/", target: "_blank" %> is a new
+          <%= link_to "Workshop Gallery", "http://workshop-gallery.com/", target: "_blank" %> is a new
           independent exhibition space for contemporary art, hosted within our premises
           to complete the building’s gestalt.
         </p>
