@@ -5,7 +5,7 @@ class AboutController < ApplicationController
   def eroom
   end
 
-  def librairy
+  def library
   end
 
   def workshop

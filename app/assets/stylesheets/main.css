@@ -372,11 +372,11 @@ header.main{ padding: 0 5px; }
 	margin-bottom: 10px;
 }
 
-#about #librairy img.librairy-logo{
+#about #Library img.Library-logo{
 	z-index: 1;
 	position: relative;
 }
-#about #librairy img.online{
+#about #Library img.online{
 	width:auto;
 	float: right;
 	margin-top: -45px;
@@ -384,13 +384,13 @@ header.main{ padding: 0 5px; }
 	z-index: 10;
 	position: relative;
 }
-#about #librairy h2{
+#about #Library h2{
 	text-transform: uppercase;
 	border-top:#000 10px solid;
 	width: 230px;
 	padding-top: 15px;
 }
-#about #librairy p{
+#about #Library p{
 	color: #000;
 }
 
