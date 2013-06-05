@@ -111,7 +111,7 @@ header.main{ padding: 0 5px; }
 	header.main nav#menu2 ul ul.sub li.selected a{ background: #333; }
 
 /* Page */
-.page{ margin-top: 40px; }
+.page{ margin-top: 50px; }
 	/* Page: columns */
 	.col-2{ width:50%; }
 	.col-1{ width:25%; }
@@ -293,12 +293,38 @@ header.main{ padding: 0 5px; }
 	color: #424242;
 }
 
-#about #teams h2{ margin-top: 0; }
-#about #teams div{ clear: both; float: left; margin-bottom: 20px; }
-#about #teams dl{ width: 30%; margin-right: 4%; float: left; margin-top: 30px; height: 220px; }
-#about #teams dl:nth-child(3n+0){ margin-right: 0; }
-#about #teams dl p{ font-size: 13px; line-height: 17px; margin-top: 5px; }
-#about #teams dl h5{ margin-top: 10px; }
+#about #team{
+	width:100%;
+	clear:both;
+	float:left;
+	padding: 0;
+}
+
+#about #team hr{
+	margin:60px 0 70px 0;
+}
+
+#about #team ul li{
+	float:left;
+	width: 214px;
+	height: 270px;
+}
+
+#about #team ul li img{
+	width:auto;
+}
+
+#about #team ul li h5{
+	color: #333;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin: 0;
+}
+
+#about #team ul li p{
+	padding:0;
+	margin: 0;
+}
 
 #about div.socials{
 	background: rgba(0,0,0,0.15);
