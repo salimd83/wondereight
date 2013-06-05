@@ -367,6 +367,33 @@ header.main{ padding: 0 5px; }
 	padding: 3px 0;
 }
 
+#about #eroom-logo{
+	width: auto;
+	margin-bottom: 10px;
+}
+
+#about #librairy img.librairy-logo{
+	z-index: 1;
+	position: relative;
+}
+#about #librairy img.online{
+	width:auto;
+	float: right;
+	margin-top: -45px;
+	margin-right: 40px;
+	z-index: 10;
+	position: relative;
+}
+#about #librairy h2{
+	text-transform: uppercase;
+	border-top:#000 10px solid;
+	width: 230px;
+	padding-top: 15px;
+}
+#about #librairy p{
+	color: #000;
+}
+
 #about div.socials{
 	background: rgba(0,0,0,0.15);
 	position: absolute;

@@ -12,6 +12,9 @@ Wondereight::Application.routes.draw do
   match "/about" => "about#index"
   match "/work/:project/:id" => 'works#show'
   match "/press" => "articles#index"
+  match "/eroom-training" => "about#eroom", as: "eroom"
+  match "/librairy" => "about#librairy"
+  match "/workshop" => "about#workshop"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
