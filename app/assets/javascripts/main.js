@@ -173,15 +173,21 @@ $(function(){
 		$('#about #partners').css('margin-bottom', '60px').insertAfter($('#about #owner'));
 	}
 
-	// $(window).resize(function(){
-	// 	var screenW = $(window).width();
-	// 	if(screenW < 1024){
-	// 		$('#about #partners').css('margin-bottom', '60px').insertAfter($('#about #owner'));
-	// 	}else{
-	// 		console.log(screenW);
-	// 		$('#about #partners').css('margin-bottom', '0').insertAfter($('#about .intro'));
-	// 	}
-	// });
+	var margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
+	//alert(margin)
+$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) -5)
+
+	$(window).resize(function(){
+		margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
+		// var screenW = $(window).width();
+		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) - 5)
+		if(screenW < 1024){
+			// $('#about #partners').css('margin-bottom', '60px').insertAfter($('#about #owner'));
+		}else{
+			// console.log(screenW);
+			// $('#about #partners').css('margin-bottom', '0').insertAfter($('#about .intro'));
+		}
+	});
 
 	if($('#slider').length){
 		$('#slider').WESlider({speed: 6000});

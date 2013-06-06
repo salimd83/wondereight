@@ -110,4 +110,6 @@
 	footer .left{ float: left; width: 100%; }
 	footer .right{ float: left; width: 100%; text-align: left; padding: 12px 0 20px 0; }
 	#work section.info p{ padding-right: 0px; }
+
+	.page #portfolio li#showcase div li{ clear: both; }
 }

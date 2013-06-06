@@ -31,7 +31,7 @@
   <ul id="portfolio">
 
     <% if @works.any? %>
-      <% @works.each do |work| %>
+      <% @works.each_with_index do |work, index| %>
 
         <li class="<%= work.category %>">
           <div>
@@ -44,6 +44,23 @@
             </a>
           </div>
         </li>
+
+        <% if index == 5 %>
+          <li id="showcase">
+            <div>
+              <h2>Download the showcase</h2>
+
+              <ul>
+                <li><a target="_blank" href="/showcase/branding/W8_Branding_Showcase.pdf">Branding.pdf</a></li>
+                <li><a target="_blank" href="/showcase/websites/W8_Web_Showcase.pdf">Restaurants.pdf</a></li>
+                <li><a target="_blank" href="/showcase/restaurants/W8_Restaurant_Showcase.pdf">Websites.pdf</a></li>
+                <li><a target="_blank" href="/showcase/packaging/W8_Packaging_Showcase.pdf">illustrations.pdf</a></li>
+                <li class="last"><a target="_blank" href="/showcase/packaging/W8_Packaging_Showcase.pdf">Packaging.pdf</a></li>
+              </ul>
+              <section class="clear"></section>
+            </div>
+          </li>
+        <% end %>
 
       <% end %>
     <% else %>
