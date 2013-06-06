@@ -178,12 +178,12 @@ $(function(){
 		    .load(function() {
 					var margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
 
-					console.log($(".page #portfolio li a section").height() - (margin*2) - 2);
-					$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) - 2)
+					console.log($(".page #portfolio li a section").height() - (margin*2) - 3);
+					$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) - 3)
 				});
 	$(window).resize(function(){
 		margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
-		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) - 2)
+		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) - 3)
 	});
 
 	if($('#slider').length){
