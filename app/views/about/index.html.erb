@@ -1,4 +1,8 @@
 <% provide(:aboutMenu, 'selected') %>
+<% provide(:title, 'A Global Branding and Interactive Agency') %>
+<% provide(:summary, 'We are a Beirut based design agency working for international and local companies who like to challenge their customers and want to be different and daring') %>
+<% provide(:image, 'wondereight-logo.gif') %>
+
 <section id="about" class="page">
 
   <div class="col-2 first">
@@ -381,7 +385,7 @@
     </section>
 
     <section>
-      <%= render "layouts/socials" %>
+      <%= render "layouts/socials", title: 'A%20Global%20Branding%20and%20Interactive%20Agency', summary: 'We%20are%20a%20Beirut%20based%20design%20agency%20working%20for%20international%20and%20local%20companies%20who%20like%20to%20challenge%20their%20customers%20and%20want%20to%20be%20different%20and%20daring' %>
     </section>
   </div>
 

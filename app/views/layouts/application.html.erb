@@ -5,18 +5,17 @@
   <meta charset="utf-8">
   <link rel="icon" type="image/png" href="/Favicon.png">
   <meta name="viewport" content="width=device-width; initial-scale=1.0">
-  <meta name="description" content="A highly skilled creative agency">
+  <meta name="description" content="<%= yield(:summary) %>">
 
-  <meta property="og:title" content="A highly skilled creative agency" />
-  <meta property="og:type" content="company" />
-  <meta property="og:url" content="http://www.wondereight.com" />
-  <meta property="og:image" content="<%= image_path("wondereight-logo.gif") %>" />
+  <meta property="og:title" content="<%= yield(:title) %>" />
+  <meta property="og:type" content="Agency" />
+  <meta property="og:url" content="<%= request.protocol+request.host_with_port+request.fullpath %>" />
+  <meta property="og:image" content="<%= request.protocol+request.host_with_port+image_path(yield(:image)) %>" />
   <meta property="og:site_name" content="Wonder Eight" />
   <meta property="fb:admins" content="112933422105082" />
-  <meta property="og:description"
-            content="We are a Beirut based design agency working for international and local companies who like to challenge their customers and want to be different and daring."/>
+  <meta property="og:description"content="<%= yield(:summary) %>"/>
 
-  <title>WonderEight</title>
+  <title><%= yield(:title) %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>

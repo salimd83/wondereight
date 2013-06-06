@@ -173,20 +173,17 @@ $(function(){
 		$('#about #partners').css('margin-bottom', '60px').insertAfter($('#about #owner'));
 	}
 
-	var margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
-	//alert(margin)
-$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) -5)
+	$("<img/>")
+		    .attr("src", $('.page #portfolio li img').attr("src"))
+		    .load(function() {
+					var margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
 
+					console.log($(".page #portfolio li a section").height() - (margin*2) - 2);
+					$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) - 2)
+				});
 	$(window).resize(function(){
 		margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
-		// var screenW = $(window).width();
-		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) - 5)
-		if(screenW < 1024){
-			// $('#about #partners').css('margin-bottom', '60px').insertAfter($('#about #owner'));
-		}else{
-			// console.log(screenW);
-			// $('#about #partners').css('margin-bottom', '0').insertAfter($('#about .intro'));
-		}
+		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) - 2)
 	});
 
 	if($('#slider').length){

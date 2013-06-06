@@ -1,7 +1,7 @@
 <div class="socials">
   <span>Share</span>
-  <%= link_to image_tag("icons/facebook.png", alt: "Facebook"),"http://www.facebook.com/sharer.php?u=http://www.wondereight.com", target: "_blank" %>
-  <%= link_to image_tag("icons/twitter.png", alt: "twitter"), "http://twitter.com/share?text=A%20highly%20skilled%20creative%20agency&url=http://www.wondereight.com", target: "_blank" %>
-  <%= link_to image_tag("icons/linkedin.png", alt: "twitter"), "http://www.linkedin.com/shareArticle?mini=true&url=http%3A//www.wondereight.com&title=A%20highly%20skilled%20creative%20agency&summary=We%20are%20a%20Beirut%20based%20design%20agency%20working%20for%20international%20and%20local%20companies%20who%20like%20to%20challenge%20their%20customers%20and%20want%20to%20be%20different%20and%20daring", target: "_blank" %>
+  <%= link_to image_tag("icons/facebook.png", alt: "Facebook"),"http://www.facebook.com/sharer.php?#{request.protocol}#{request.host_with_port}#{request.fullpath}", target: "_blank" %>
+  <%= link_to image_tag("icons/twitter.png", alt: "twitter"), "http://twitter.com/share?text=#{title}&url=#{request.protocol}#{request.host_with_port}#{request.fullpath}", target: "_blank" %>
+  <%= link_to image_tag("icons/linkedin.png", alt: "twitter"), "http://www.linkedin.com/shareArticle?mini=true&url=#{request.protocol}#{request.host_with_port}#{request.fullpath}&title=#{title}&summary=#{summary}", target: "_blank" %>
   <div class="clear"></div>
 </div>

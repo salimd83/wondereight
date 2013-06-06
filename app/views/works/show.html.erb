@@ -1,3 +1,8 @@
+<% provide(:workMenu, 'selected') %>
+<% provide(:title, @work.title+' by WonderEight') %>
+<% provide(:summary, @work.description) %>
+<% provide(:image, request.protocol+request.host_with_port+image_path(@work.photo_main.url("default"))) %>
+
 <section id="work" class="page">
 
   <figure>
@@ -42,7 +47,7 @@
       </span>
     </div>
     <div class="col-1">
-      <%= render "layouts/socials" %>
+      <%= render "layouts/socials", title: @work.title + ' by WonderEight', summary: strip_tags(@work.description) %>
     </div>
     <div class="clear"></div>
   </section>

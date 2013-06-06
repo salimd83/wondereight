@@ -6,7 +6,7 @@
       <ul>
         <li>
           <%=
-            link_to image_tag("icons/facebook.png", alt: 'facebook'), "http://www.facebook.com/pages/WonderEight-, target: '_blank'Brand-Design-Animation-Interactive/112933422105082?fref=ts"
+            link_to image_tag("icons/facebook.png", alt: 'facebook'), "http://www.facebook.com/pages/WonderEight-Brand-Design-Animation-Interactive/112933422105082?fref=ts", target: '_blank'
           %>
         </li>
         <li>
@@ -45,7 +45,7 @@
       <ul>
         <li class="<%= yield(:aboutMenu) %>"><%= link_to "About W8", about_path %></li>
         <li class="<%= yield(:workMenu) %>">
-          <%= link_to "Work", root_path %>
+          <%= link_to "Our Work", root_path %>
           <ul class="sub works-filters">
             <!-- <li><a href="index.php?cat=branding">Branding</a></li> -->
             <li><%= link_to "Branding", "/works/Branding/" %></li>
@@ -56,7 +56,7 @@
         </li>
         <li class="<%= yield(:libraryMenu) %>"><%= link_to "The Library", library_path %></li>
         <li class="<%= yield(:eroomMenu) %>"><%= link_to "E/ROOM", eroom_path %></li>
-        <li class="<%= yield(:workshopMenu) %>"><%= link_to "Prototyping Workshop", workshop_path %></li>
+        <li class="<%= yield(:workshopMenu) %>"><%= link_to "The Workshop", workshop_path %></li>
         <li><a href="#">Showcases</a>
           <ul class="sub">
             <li><a href="showcase/branding/W8_Branding_Showcase.pdf" target="_blank">Branding.pdf</a></li>
@@ -72,7 +72,7 @@
       <ul>
         <li class="label"><a href="#">Navigation</a></li>
         <li><%= link_to "About W8", about_path %></li>
-        <li><%= link_to "Work", root_path %>
+        <li><%= link_to "Our Work", root_path %>
           <ul class="sub works-filters">
             <!-- <li><a href="index.php?cat=branding">Branding</a></li> -->
             <li><%= link_to "Branding", "/works/Branding/" %></li>
@@ -83,7 +83,7 @@
         </li>
         <li class="<%= yield(:libraryMenu) %>"><%= link_to "The Library", library_path %></li>
         <li class="<%= yield(:eroomMenu) %>"><%= link_to "E/ROOM", eroom_path %></li>
-        <li class="<%= yield(:workshopMenu) %>"><%= link_to "Prototyping Workshop", workshop_path %></li>
+        <li class="<%= yield(:workshopMenu) %>"><%= link_to "The Workshop", workshop_path %></li>
         <li><a href="#">Showcases</a>
           <ul class="sub">
             <li><a href="showcase/branding/W8_Branding_Showcase.pdf" target="_blank">Branding.pdf</a></li>
