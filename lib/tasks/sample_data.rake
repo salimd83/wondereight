@@ -146,7 +146,7 @@ namespace :db do
       region: "Lebanon",
       created: "2010",
       category: "Restaurants",
-      website: "http://classburgerjoint.com",
+      website: "http://classicburgerjoint.com",
     )
 
     9.times do |n|
