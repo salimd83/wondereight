@@ -132,9 +132,9 @@ namespace :db do
 
     work7 = Work.create!(
       title: "Classic Burger Joint",
-      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/classic-burger.jpg")),
-      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/classic-burger.jpg")),
-      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/classic-burger/classic-burger-main.jpg")),
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/classic-burger-joint.jpg")),
+      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/classic-burger-joint.jpg")),
+      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/classic-burger-joint/classic-burger-main.jpg")),
       caption: "Classic Burger Joint / <em>Restaurant Branding</em>",
       description: "<p>The concept is all in the name: It's a classic burger joint, and hamburgers is all 'they' do! The challenge was to create the most simple, straight to the point identity and architecture, while reflecting a unique and genuine experience.</p>
 <p>From the name to the waiter's name tag, we kept the simplicity flowing in every aspect of the communication. The thorough research we conducted (that involved traveling to London, Paris, New York and other American states!) and our love of Hamburgers have contributed largely in the success of the brand, and especially in the restaurant's architecture.</p>",
