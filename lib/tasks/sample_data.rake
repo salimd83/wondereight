@@ -18,6 +18,7 @@ namespace :db do
       region: "UAE",
       created: "2012",
       category: "Restaurants",
+      website: "http://bakerandmore.com"
     )
 
     6.times do |n|
@@ -60,6 +61,7 @@ namespace :db do
       region: "LEBANON",
       created: "2011",
       category: "Website",
+      website: "http://aspasuc.com"
     )
 
     2.times do |n|
@@ -122,6 +124,7 @@ namespace :db do
       region: "KSA",
       created: "2011",
       category: "Restaurants",
+      website: "http://uptown966.com",
     )
 
     3.times do |n|
@@ -143,6 +146,7 @@ namespace :db do
       region: "Lebanon",
       created: "2010",
       category: "Restaurants",
+      website: "http://classburgerjoint.com",
     )
 
     9.times do |n|
@@ -163,6 +167,7 @@ namespace :db do
       region: "Lebanon",
       created: "2012",
       category: "Branding",
+      website: "http://atibaiawine.com"
     )
 
     6.times do |n|
@@ -183,6 +188,7 @@ namespace :db do
       region: "Lebanon",
       created: "2011",
       category: "Restaurants",
+      website: "http://www.tomatomatic.com",
     )
 
     6.times do |n|
@@ -203,6 +209,7 @@ namespace :db do
       region: "GCC",
       created: "2010",
       category: "Branding",
+      website: "http://www.castanianuts.com"
     )
 
     3.times do |n|
@@ -264,6 +271,7 @@ namespace :db do
       region: "Lebanon",
       created: "2012",
       category: "Branding",
+      website: "http://www.healco.com/hoover.html"
     )
 
     6.times do |n|
@@ -304,6 +312,7 @@ namespace :db do
       region: "Lebanon",
       created: "2009",
       category: "Branding",
+      website: "http://idm.net.lb"
     )
 
     6.times do |n|
@@ -344,6 +353,7 @@ namespace :db do
       region: "Lebanon",
       created: "2011",
       category: "Branding",
+      website: "http://wokbox-lb.com"
     )
 
     6.times do |n|

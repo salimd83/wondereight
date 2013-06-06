@@ -35,6 +35,10 @@
   <ul id="portfolio">
 
     <% if @works.any? %>
+      <% if @works.count < 8 %>
+        <h2>Uploading projects soon ;-)</h2>
+      <% end %>
+
       <% @works.each_with_index do |work, index| %>
 
         <li class="<%= work.category %>">
@@ -68,7 +72,7 @@
 
       <% end %>
     <% else %>
-      <h2>No project has been added yet!</h2>
+      <h2>Uploading projects soon ;-)</h2>
     <% end %>
   </ul>
   <div class="imgloader"></div>
