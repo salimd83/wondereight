@@ -117,14 +117,14 @@ $(function(){
 
 	$('#portfolio a').hover(showInfo, hideInfo);
 
-	// $('body').append('<div class="imgloader">')
+	$('body').append('<div class="imgloader">')
 
-	// $('#portfolio a').each(function(){
-	// 	var src = $(this).attr('data-image');
-	// 	var img = $('<img>');
-	// 	img.attr('src', src);
-	// 	$('.imgloader').append(img);
-	// })
+	$('#portfolio a').each(function(){
+		var src = $(this).attr('data-image');
+		var img = $('<img>');
+		img.attr('src', src);
+		$('.imgloader').append(img);
+	})
 
 	$('.imgloader').css({'width': 0, 'height': 0, 'overflow': 'hidden'});
 
