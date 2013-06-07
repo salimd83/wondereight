@@ -362,25 +362,25 @@ namespace :db do
       )
     end
 
-    # work18 = Work.create!(
-    #   title: "Alaia",
-    #   photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/alaia.jpg")),
-    #   photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/alaia.jpg")),
-    #   photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/alaia/alaia-main.jpg")),
-    #   caption: "Alaia / <em>Brand & Packaging Design</em>",
-    #   description: "<p>BEY's business, based on sound human values and principles, is Libya's number one FMCG distributor and had more than 80% of the shelf space. When the time came for them to create their own brands they commissioned WonderEight to do it: Creating brands through private labeling. This project's experience was thrilling as W8 were there from the beginning, it's like assisting to the Big Bang, creating a mother brand (Alaya) and three subbrands (Alaya, Masoud and Formula) for more than twenty different products is also opening to the worldwide markets, and the challenge was to adapt new products to their culture. This is where WonderEight's multi-cultural skills came into play. Libyan consumers were looking for something new they could also relate to. Knowing that there is no one single product for everyone, WonderEight worked hard to keep Bey's motto: bringing the best and most relevant products to people, wherever they are and whatever their needs, with a deep understanding of the local nature of food: Bey's products are tailored to suit tastes and habits wherever you are.</p>",
-    #   client: "HB GROUP",
-    #   task: "total Brand Creation",
-    #   region: "Libya",
-    #   created: "2008",
-    #   category: "Branding",
-    # )
+    work18 = Work.create!(
+      title: "Alaia",
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/alaia.jpg")),
+      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/alaia.jpg")),
+      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/alaia/alaia-main.jpg")),
+      caption: "Alaia / <em>Brand & Packaging Design</em>",
+      description: "<p>BEY's business, based on sound human values and principles, is Libya's number one FMCG distributor and had more than 80% of the shelf space. When the time came for them to create their own brands they commissioned WonderEight to do it: Creating brands through private labeling. This project's experience was thrilling as W8 were there from the beginning, it's like assisting to the Big Bang, creating a mother brand (Alaya) and three subbrands (Alaya, Masoud and Formula) for more than twenty different products is also opening to the worldwide markets, and the challenge was to adapt new products to their culture. This is where WonderEight's multi-cultural skills came into play. Libyan consumers were looking for something new they could also relate to. Knowing that there is no one single product for everyone, WonderEight worked hard to keep Bey's motto: bringing the best and most relevant products to people, wherever they are and whatever their needs, with a deep understanding of the local nature of food: Bey's products are tailored to suit tastes and habits wherever you are.</p>",
+      client: "HB GROUP",
+      task: "total Brand Creation",
+      region: "Libya",
+      created: "2008",
+      category: "Branding",
+    )
 
-    # 3.times do |n|
-    #   work18.workgalleries.create!(
-    #     photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work18.title.parameterize}/img-#{n+2}.jpg"))
-    #   )
-    # end
+    3.times do |n|
+      work18.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work18.title.parameterize}/img-#{n+2}.jpg"))
+      )
+    end
 
     work19 = Work.create!(
       title: "Bob's Easy Diner",
@@ -427,7 +427,7 @@ namespace :db do
     end
 
     work21 = Work.create!(
-      title: "Anahar",
+      title: "An Nahar",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/anahar.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/anahar.jpg")),
       photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/anahar/anahar-main.jpg")),
