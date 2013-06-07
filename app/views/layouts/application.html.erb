@@ -8,12 +8,12 @@
   <meta name="description" content="<%= yield(:summary) %>">
 
   <meta property="og:title" content="<%= yield(:title) %>" />
-  <meta property="og:type" content="Agency" />
+  <meta property="og:type" content="Company" />
   <meta property="og:url" content="<%= request.protocol+request.host_with_port+request.fullpath %>" />
   <meta property="og:image" content="<%= request.protocol+request.host_with_port+image_path(yield(:image)) %>" />
   <meta property="og:site_name" content="Wonder Eight" />
   <meta property="fb:admins" content="112933422105082" />
-  <meta property="og:description"content="<%= yield(:summary) %>"/>
+  <meta property="og:description" content="<%= yield(:summary) %>"/>
 
   <title><%= yield(:title) %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>

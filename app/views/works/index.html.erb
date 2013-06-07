@@ -32,17 +32,17 @@
 </style>
 
 <script type="text/javascript">
-  $(function(){
-    var preloads = [
-      <% @works.each do |work| %>
-        '<%= request.protocol+request.host_with_port+image_path(work.photo_over.url(:default)) %>',
-      <% end %>
-    ]
+  // $(function(){
+  //   var preloads = [
+  //     <% @works.each do |work| %>
+  //       '<%= request.protocol+request.host_with_port+image_path(work.photo_over.url(:default)) %>',
+  //     <% end %>
+  //   ]
 
-    $(preloads).each(function(){
-      $('<img />')[0].src = this;
-    })
-  })
+  //   $(preloads).each(function(){
+  //     $('<img />')[0].src = this;
+  //   })
+  // })
 </script>
 
 <section id="home" class="page">

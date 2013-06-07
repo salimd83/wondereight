@@ -83,29 +83,29 @@ $(function(){
 		}
 	})
 
-	var left = false;
-	var right = false;
+	// var left = false;
+	// var right = false;
 
-	$(window).mousemove(function(e){
-		var w = $(window).width();
-		var w25 = w*25/100;
-		var w75 = w*75/100;
+	// $(window).mousemove(function(e){
+	// 	var w = $(window).width();
+	// 	var w25 = w*25/100;
+	// 	var w75 = w*75/100;
 
-		if(e.pageX < w25 && !left){
-			$('a.prev').animate({left: 0}, 300, 'easeOutQuint');
-			left = true;
-			right = false;
-		}else if(e.pageX > w75 && !right){
-			$('a.next').animate({right: 0}, 300, 'easeOutQuint');
-			right = true;
-			left = false;
-		}else if(e.pageX > w25 && e.pageX < w75 && (left || right)){
-			$('a.next').animate({right: -75}, 300, 'easeOutQuint');
-			$('a.prev').animate({left: -75}, 300, 'easeOutQuint');
-			right = false;
-			left = false;
-		}
-	});
+	// 	if(e.pageX < w25 && !left){
+	// 		$('a.prev').animate({left: 0}, 300, 'easeOutQuint');
+	// 		left = true;
+	// 		right = false;
+	// 	}else if(e.pageX > w75 && !right){
+	// 		$('a.next').animate({right: 0}, 300, 'easeOutQuint');
+	// 		right = true;
+	// 		left = false;
+	// 	}else if(e.pageX > w25 && e.pageX < w75 && (left || right)){
+	// 		$('a.next').animate({right: -75}, 300, 'easeOutQuint');
+	// 		$('a.prev').animate({left: -75}, 300, 'easeOutQuint');
+	// 		right = false;
+	// 		left = false;
+	// 	}
+	// });
 
 	var config = {
 	     over: showInfo, // function = onMouseOver callback (REQUIRED)
