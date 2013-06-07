@@ -186,9 +186,9 @@ $(function(){
 		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) - 3)
 	});
 
-	// if($('#slider').length){
-	// 	$('#slider').WESlider({speed: 6000});
-	// }
+	if($('#slider').length){
+		$('#slider').WESlider({speed: 6000});
+	}
 });
 
 function showInfo(){
