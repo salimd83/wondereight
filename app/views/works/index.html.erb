@@ -35,7 +35,7 @@
   $(function(){
     var preloads = [
       <% @works.each do |work| %>
-        '<%= image_tag work.photo_over.url(:default), alt: "" %>',
+        '<%= image_path(work.photo_over.url(:default)) %>',
       <% end %>
     ]
 
