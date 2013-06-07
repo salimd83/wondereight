@@ -46,7 +46,7 @@
             <a href="/work/<%= work.title.parameterize %>/<%= work.id %>"
                data-image="<%= work.photo_over.url(:default) %>">
               <section>
-                <img src="<%= work.photo.url(:default) %>" alt="">
+                <% image_tag work.photo.url(:default), alt: work.title %>
                 <p><span><%= work.caption.html_safe %></span></p>
               </section>
             </a>
