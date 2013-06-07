@@ -38,6 +38,10 @@
         '<%= image_tag work.photo_over.url(:default), alt: "" %>',
       <% end %>
     ]
+
+    $(preloads).each(function(){
+      $('<img />')[0].src = this;
+    })
   })
 </script>
 
