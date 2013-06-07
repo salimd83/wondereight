@@ -215,3 +215,7 @@ function hideInfo(){
 		$(this).remove();
 	})
 }
+
+$(document).ready(function() {
+	$("#portfolio").krioImageLoader();
+});
