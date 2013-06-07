@@ -35,7 +35,7 @@
   $(function(){
     var preloads = [
       <% @works.each do |work| %>
-        '<%= image_path(work.photo_over.url(:default)) %>',
+        '<%= request.protocol+request.host_with_port+image_path(work.photo_over.url(:default)) %>',
       <% end %>
     ]
 
