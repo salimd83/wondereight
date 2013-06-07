@@ -77,7 +77,7 @@
   </ul>
   <div class="imgloader">
     <% @works.each do |work| %>
-      <%= image_tag "/assets/"+work.photo_over.url(:default), alt: "" %>
+      <%= image_tag work.photo_over.url(:default), alt: "" %>
     <% end %>
   </div>
   <div class="clear"></div>
