@@ -75,6 +75,10 @@
       <h2>Uploading projects soon ;-)</h2>
     <% end %>
   </ul>
-  <div class="imgloader"></div>
+  <div class="imgloader">
+    <% @works.each do |work| %>
+      <%= image_tag "/assets/"+work.photo_over.url(:default), alt: "" %>
+    <% end %>
+  </div>
   <div class="clear"></div>
 </section>
