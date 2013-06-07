@@ -380,6 +380,7 @@ header.main{ padding: 0 5px; }
 	float: left;
 	margin-right: 40px;
 	height: 65px;
+	width:25%;
 }
 
 #about #contact address.bold{
@@ -396,6 +397,12 @@ header.main{ padding: 0 5px; }
 
 #about #contact address ul li{
 	padding: 3px 0;
+}
+#about #contact address strong{
+	font-size: 14px;
+}
+#about #contact address p{
+	margin: 5px 0;
 }
 
 #about #eroom-logo{

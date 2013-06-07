@@ -396,10 +396,132 @@ namespace :db do
       category: "Restaurant",
     )
 
-    5 .times do |n|
+    5.times do |n|
       work19.workgalleries.create!(
         photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/bobs-easy-diner/img-#{n+2}.jpg"))
       )
     end
+
+    work20 = Work.create!(
+      title: "Sacotel",
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/sacotel.jpg")),
+      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/sacotel.jpg")),
+      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/sacotel/sacotel-main.jpg")),
+      caption: "Sacotel / <em>Website</em>",
+      description: "<p>We were asked to create the website of Sacotel, the exclusive agent and distributor in Lebanon for major brands such as Panasonic from Japan, Urmet, Elkron, Aprimatic from Italy, and FDI Matelec from France. SACOTEL SAL has known a constant and steady growth expanding its line of business and weight on the markets it operates.</p>
+        <p>The main challenge was to ensure an equal presentation of all their brands along with the creation of an online shop where suppliers and consumers could purchase products.</p>
+        <p>The result was an easy to use interface, slick and neat with all major sections presented in a clear way on the homepage.</p>
+        <p>We focused on a smooth and simple user-experience rather than flashy animations and graphics. The end result was an attractive and professional looking interface, offering quick access to information and products.</p>",
+      client: "Hosri Group",
+      task: "Web Design",
+      region: "Lebanon",
+      created: "2011",
+      category: "Website",
+      website: "http://sacotel.com"
+    )
+
+    3.times do |n|
+      work20.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/sacotel/img-#{n+2}.jpg"))
+      )
+    end
+
+    work21 = Work.create!(
+      title: "Anahar",
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/anahar.jpg")),
+      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/anahar.jpg")),
+      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/anahar/anahar-main.jpg")),
+      caption: "Anahar / <em>Website</em>",
+      description: "<p>An Nahar is a leading Arabic-language daily newspaper published in Lebanon.</p>
+      <p>An Nahar news app is one of the first Arabic news apps to be designed for Windows 8.</p>
+      <p>WonderEight worked on the creation of this app since its very early stages as part of its</p>",
+      client: "Microsoft",
+      task: "Windows 8 App Design",
+      region: "Lebanon",
+      created: "2012",
+      category: "Website",
+    )
+
+    3.times do |n|
+      work21.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/anahar/img-#{n+2}.jpg"))
+      )
+    end
+
+    work22 = Work.create!(
+      title: "Ma2too3a",
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/ma2too3a.jpg")),
+      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/ma2too3a.jpg")),
+      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/ma2too3a/ma2too3a-main.jpg")),
+      caption: "Ma2too3a / <em>Website</em>",
+      description: "<p>ma2too3a! is a crowd sourced mobile application that offers real time location based news and traffic updates. It was deployed on the 5th of August, 2012 for iOS and later on for Android and windows devices. ma2too3a! allows any user to inform others about the whereabouts of traffic jams, and news such as protests, armed combat, or road blockage instantly.</p>
+      <p>We were asked to adapt an originally iOS based app to the new Microsoft design language.</p>
+      <p>After studying the main features and experience of the app we came up with a smooth and slick interface offering direct access to all the important features of the app.</p>",
+      client: "Microsoft",
+      task: "Windows 8 App Design",
+      region: "Lebanon",
+      created: "2012",
+      category: "Website",
+    )
+
+    2.times do |n|
+      work22.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/ma2too3a/img-#{n+2}.jpg"))
+      )
+    end
+
+    work23 = Work.create!(
+      title: "Picon",
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/picon.jpg")),
+      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/picon.jpg")),
+      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/picon/picon-main.jpg")),
+      caption: "Picon / <em>Illustration</em>",
+      description: "",
+      client: "Picon",
+      task: "Illustration",
+      region: "Lebanon",
+      created: "",
+      category: "Illustration",
+    )
+
+    1.times do |n|
+      work23.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/picon/img-#{n+2}.jpg"))
+      )
+    end
+
+    work24 = Work.create!(
+      title: "Disney",
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/disney.jpg")),
+      #photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/disney.jpg")),
+      #photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/disney/disney-main.jpg")),
+      caption: "Disney / <em>Illustration</em>",
+      description: "",
+      client: "Disney",
+      task: "Illustration",
+      region: "Lebanon",
+      created: "",
+      category: "Illustration",
+    )
+
+    # 2.times do |n|
+    #   work19.workgalleries.create!(
+    #     photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/picon/img-#{n+2}.jpg"))
+    #   )
+    # end
+
+    work24 = Work.create!(
+      title: "Dolsy",
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/dolsy.jpg")),
+      #photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/disney.jpg")),
+      #photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/disney/disney-main.jpg")),
+      caption: "Dolsy / <em>Illustration</em>",
+      description: "",
+      client: "Dolsy",
+      task: "Illustration",
+      region: "Lebanon",
+      created: "",
+      category: "Illustration",
+    )
   end
 end
