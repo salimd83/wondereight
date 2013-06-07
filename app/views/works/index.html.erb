@@ -31,6 +31,16 @@
   }
 </style>
 
+<script type="text/javascript">
+  $(function(){
+    var preloads = [
+      <% @works.each do |work| %>
+        '<%= image_tag work.photo_over.url(:default), alt: "" %>',
+      <% end %>
+    ]
+  })
+</script>
+
 <section id="home" class="page">
   <ul id="portfolio">
 
