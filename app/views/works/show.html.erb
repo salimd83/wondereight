@@ -1,5 +1,5 @@
 <% provide(:workMenu, 'selected') %>
-<% provide(:title, @work.title+' by WonderEight') %>
+<% provide(:title, @work.title+' '+@work.task+' - WonderEight') %>
 <% provide(:summary, strip_tags(@work.description)) %>
 <% provide(:image, request.protocol+request.host_with_port+image_path(@work.photo_main.url("default"))) %>
 
