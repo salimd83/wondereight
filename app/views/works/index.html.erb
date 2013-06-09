@@ -1,5 +1,11 @@
 <% provide(:workMenu, 'selected') %>
-<% provide(:title, 'WonderEight: A Global Branding and Interactive Agency') %>
+<%
+  if @cat.blank?
+    provide(:title, 'WonderEight: A Global Branding and Interactive Agency')
+  else
+    provide(:title, @cat+' - WonderEight')
+  end
+%>
 <% provide(:summary, 'We are a Beirut based design agency working for international and local companies who like to challenge their customers and want to be different and daring') %>
 <% provide(:image, 'eroom-photo.jpg') %>
 
