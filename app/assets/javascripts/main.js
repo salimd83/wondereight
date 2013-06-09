@@ -31,19 +31,21 @@ $(function(){
 		}
 	);
 
-	$('header.main nav#menu2 > ul').hover(
+	$('header.main nav#menu2 > ul').click(
 		function(){
+			elem = $(this);
+			if(elem.height() < 200){
 			$('header.main nav#menu2 ul.sub').height(0);
-			elem = $(this);
-			elem.find('li').removeClass('hidden').show();
-			var height = $('nav#menu2 > ul > li').length*elem.find('li:first').height();
-			elem.stop().animate({height: height}, 350, 'easeOutQuint');
-		},
-		function(){
-			elem = $(this);
-			elem.stop().animate({height: 36}, 350, 'easeOutQuint', function(){
-				$(this).find('li').not('.selected').addClass('hidden');
-			})
+
+				elem.find('li').removeClass('hidden').show();
+				var height = $('nav#menu2 > ul > li').length*elem.find('li:first').height();
+				elem.stop().animate({height: height}, 350, 'easeOutQuint');
+			}else{
+				elem.stop().animate({height: 36}, 350, 'easeOutQuint', function(){
+					$(this).find('li').not('.selected').addClass('hidden');
+				})
+			}
+			return false;
 		}
 	)
 
