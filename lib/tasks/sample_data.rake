@@ -506,9 +506,9 @@ namespace :db do
 
     work27 = Work.create!(
       title: "Instabeat",
-      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/cafe-hamra.jpg")),
-      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/cafe-hamra.jpg")),
-      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/cafe-hamra/cafe-hamra-main.jpg")),
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/Instabeat.jpg")),
+      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/Instabeat.jpg")),
+      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/Instabeat/Instabeat-main.jpg")),
       caption: "Cafe Hamra / <em>Restaurant Branding</em>",
       description: "<p>Instabeat is the first waterproof heads-up monitor that tracks, stores, and displays instant feedback of your heart rate during your swim.</p><p>Our job started with the name creation of the brand, and continued to develop a corporate identity that communicates the main brand attributes to the professionals in the field.</p><p>Today, Instabeat has been featured on Tech Crunch, Engadget, Mashable, and other top-notch technology/gadgets websites.</p>",
       client: "Hind Hobeika",
@@ -519,8 +519,8 @@ namespace :db do
     )
 
     3.times do |n|
-      work16.workgalleries.create!(
-        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work16.title.parameterize}/img-#{n+2}.jpg"))
+      work27.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work27.title.parameterize}/img-#{n+2}.jpg"))
       )
     end
   end
