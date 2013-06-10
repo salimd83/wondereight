@@ -4,6 +4,7 @@ class WorksController < ApplicationController
       @cat = params[:cat]
       @works = Work.where("category = ?", params[:cat])
     else
+      @cat = ''
       @works = Work.all
     end
   end

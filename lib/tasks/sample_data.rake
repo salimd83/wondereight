@@ -60,7 +60,7 @@ namespace :db do
       task: "WEBSITE DESIGN",
       region: "LEBANON",
       created: "2011",
-      category: "Website",
+      category: "Websites",
       website: "http://aspasuc.com"
     )
 
@@ -416,7 +416,7 @@ namespace :db do
       task: "Web Design",
       region: "Lebanon",
       created: "2011",
-      category: "Website",
+      category: "Websites",
       website: "http://sacotel.com"
     )
 
@@ -439,7 +439,7 @@ namespace :db do
       task: "Windows 8 App Design",
       region: "Lebanon",
       created: "2012",
-      category: "Website",
+      category: "Websites",
     )
 
     3.times do |n|
@@ -461,7 +461,7 @@ namespace :db do
       task: "Windows 8 App Design",
       region: "Lebanon",
       created: "2012",
-      category: "Website",
+      category: "Websites",
     )
 
     2.times do |n|
