@@ -45,7 +45,7 @@ $(function(){
 					$(this).find('li').not('.selected').addClass('hidden');
 				})
 			}
-			return false;
+			//return false;
 		}
 	)
 
@@ -80,7 +80,6 @@ $(function(){
 												300,
 												'easeOutQuint');
 			}
-
 			return false;
 		}
 	})
