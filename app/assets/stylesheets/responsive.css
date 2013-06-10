@@ -128,4 +128,10 @@
 	#map{
 		margin-top: 25px;
 	}
+
+	#about #contact address.bold {
+	    font-size: 17px;
+	    font-weight: bold;
+	    line-height: 22px;
+	}
 }
