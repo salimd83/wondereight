@@ -411,7 +411,7 @@ namespace :db do
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/anahar.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/anahar.jpg")),
       photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/anahar/anahar-main.jpg")),
-      caption: "Anahar / <em>Website</em>",
+      caption: "An Nahar / <em>Website</em>",
       description: "<p>An Nahar is a leading Arabic-language daily newspaper published in Lebanon.</p>
       <p>An Nahar news app is one of the first Arabic news apps to be designed for Windows 8.</p>
       <p>WonderEight worked on the creation of this app since its very early stages as part of its</p>",
@@ -518,7 +518,7 @@ namespace :db do
       category: "Websites",
     )
 
-    2.times do |n|
+    3.times do |n|
       work27.workgalleries.create!(
         photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work27.title.parameterize}/img-#{n+2}.jpg"))
       )
