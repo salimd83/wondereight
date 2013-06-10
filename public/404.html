@@ -3,24 +3,51 @@
 <head>
   <title>The page you were looking for doesn't exist (404)</title>
   <style type="text/css">
-    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
-    div.dialog {
-      width: 25em;
-      padding: 0 4em;
-      margin: 4em auto 0 auto;
-      border: 1px solid #ccc;
-      border-right-color: #999;
-      border-bottom-color: #999;
+    #page404{
+      width: 400px;
+      margin: 60px;
+      font-family: helvetica, serif;
     }
-    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #page404 h1{
+      font-size: 80px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-top: 30px;
+    }
+    #page404 h3{
+      font-weight: bold;
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 30px;
+    }
+    #page404 p{
+      font-size: 24px;
+      margin: 0;
+      font-weight: normal;
+    }
+    #page404 .btn{ width: 150px; margin-top: 30px; margin-bottom: 50px; }
+    #page404 .btn a{
+      display: block;
+      background: #222;
+      font-size: 13px;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: none;
+    }
   </style>
 </head>
 
 <body>
   <!-- This file lives in public/404.html -->
-  <div class="dialog">
-    <h1>The page you were looking for doesn't exist.</h1>
-    <p>You may have mistyped the address or the page may have moved.</p>
-  </div>
+  <section id="page404" class="page">
+    <img src="/images/wondereight-logo.gif" alt="WonderEight ">
+    <h1>404</h1>
+    <h3>Oops! The page you have requested is not available.<h3>
+    <p>If you typed the address, please verify that the spelling is correct</p>
+    <div class="btn"><a href="http://www.wondereight.com">GO BACK</a></div>
+    <div class="clear"></div>
+  </section>
 </body>
 </html>
