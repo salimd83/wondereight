@@ -112,4 +112,17 @@
 	#work section.info p{ padding-right: 0px; }
 
 	.page #portfolio li#showcase div li{ clear: both; }
+	#about #contact address{
+		float: none;
+		margin-right: 0;
+		height: auto;
+		width:100%;
+		margin-top:25px;
+	}
+	#workshop p{
+		margin-left: 0;
+	}
+	#workshop h2{
+		display: none;
+	}
 }

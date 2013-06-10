@@ -366,6 +366,10 @@ header.main{ padding: 0 5px; }
 	margin: 0;
 }
 
+#workshop p{
+	margin-left: 195px;
+}
+
 #about #team ul li p{
 	padding:0;
 	margin: 0;
@@ -378,7 +382,7 @@ header.main{ padding: 0 5px; }
 
 #about #contact address{
 	float: left;
-	margin-right: 40px;
+	margin-right: 8%;
 	height: 65px;
 	width:25%;
 }
