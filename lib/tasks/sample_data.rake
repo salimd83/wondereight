@@ -518,7 +518,7 @@ namespace :db do
       category: "Websites",
     )
 
-    3.times do |n|
+    2.times do |n|
       work27.workgalleries.create!(
         photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work27.title.parameterize}/img-#{n+2}.jpg"))
       )
