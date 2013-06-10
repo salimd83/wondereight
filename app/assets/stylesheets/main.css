@@ -155,18 +155,23 @@ header.main{ padding: 0 5px; }
 	.page #portfolio li#showcase div h2{
 		color: #fff;
 		font-weight: bold;
-		font-size: 16px;
-		line-height: 19px;
+		font-size: 26px;
+		line-height: 30px;
+		border-top: #fff 5px solid;
+		padding-top: 10px;
+		width: 48%;
+		float: left;
 	}
 	.page #portfolio li#showcase div ul{
-		margin-top: 5px;
+		margin-top: 0px;
+		float: left;
+		width: 35%;
+		margin-left: 35px;
 	}
 	.page #portfolio li#showcase div li{
-		width: 50%;
-		float: left;
-		border-bottom: #eee 1px solid;
 		padding: 5px 0;
 		margin: 2px 0;
+		clear: both;
 	}
 	.page #portfolio li#showcase div li.last{
 		border: none;
@@ -175,6 +180,7 @@ header.main{ padding: 0 5px; }
 		padding: 0;
 		color: #fff;
 		font-size: 12px;
+		text-decoration: underline;
 	}
 	/* Page: prev/next */
 	a.prev,
