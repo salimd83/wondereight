@@ -516,6 +516,7 @@ namespace :db do
       region: "Lebanon",
       created: "2012",
       category: "Websites",
+      website: "http://instabeat.me"
     )
 
     3.times do |n|
