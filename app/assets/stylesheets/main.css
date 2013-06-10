@@ -201,6 +201,17 @@ header.main{ padding: 0 5px; }
 	display: block;
 	padding: 5px;
 }
+#work .btn{
+	background: #000;
+	padding: 10px;
+	float: right;
+	margin-left: 5px;
+	margin-top: 40px;
+}
+#work .btn a{
+	color: #fff;
+	text-decoration: none;
+}
 #work figure img{ display: block; }
 #work figure .col img,
 #work figure .col-1 img,

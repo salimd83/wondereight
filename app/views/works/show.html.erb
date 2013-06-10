@@ -50,6 +50,7 @@
       </span>
     </div>
     <div class="col-1">
+      <div class="btn"><%= link_to "Back to #{@work.category}", "/works/#{@work.category}" %></div>
       <%= render "layouts/socials", title: @work.title + ' by WonderEight', summary: strip_tags(@work.description) %>
     </div>
     <div class="clear"></div>
