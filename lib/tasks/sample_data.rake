@@ -280,6 +280,30 @@ namespace :db do
       )
     end
 
+    work19 = Work.create!(
+      title: "Sacotel",
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/sacotel.jpg")),
+      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/sacotel.jpg")),
+      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/sacotel/sacotel-main.jpg")),
+      caption: "Sacotel / <em>Website</em>",
+      description: "<p>We were asked to create the website of Sacotel, the exclusive agent and distributor in Lebanon for major brands such as Panasonic from Japan, Urmet, Elkron, Aprimatic from Italy, and FDI Matelec from France. SACOTEL SAL has known a constant and steady growth expanding its line of business and weight on the markets it operates.</p>
+        <p>The main challenge was to ensure an equal presentation of all their brands along with the creation of an online shop where suppliers and consumers could purchase products.</p>
+        <p>The result was an easy to use interface, slick and neat with all major sections presented in a clear way on the homepage.</p>
+        <p>We focused on a smooth and simple user-experience rather than flashy animations and graphics. The end result was an attractive and professional looking interface, offering quick access to information and products.</p>",
+      client: "Hosri Group",
+      task: "Web Design",
+      region: "Lebanon",
+      created: "2011",
+      category: "Websites",
+      website: "http://sacotel.com"
+    )
+
+    3.times do |n|
+      work19.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/sacotel/img-#{n+2}.jpg"))
+      )
+    end
+
     work14 = Work.create!(
       title: "Dunlop Lebanon",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/dunlop-lebanon.jpg")),
@@ -363,26 +387,6 @@ namespace :db do
     end
 
     work18 = Work.create!(
-      title: "Alaia",
-      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/alaia.jpg")),
-      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/alaia.jpg")),
-      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/alaia/alaia-main.jpg")),
-      caption: "Alaia / <em>Brand & Packaging Design</em>",
-      description: "<p>BEY's business, based on sound human values and principles, is Libya's number one FMCG distributor and had more than 80% of the shelf space. When the time came for them to create their own brands they commissioned WonderEight to do it: Creating brands through private labeling. This project's experience was thrilling as W8 were there from the beginning, it's like assisting to the Big Bang, creating a mother brand (Alaya) and three subbrands (Alaya, Masoud and Formula) for more than twenty different products is also opening to the worldwide markets, and the challenge was to adapt new products to their culture. This is where WonderEight's multi-cultural skills came into play. Libyan consumers were looking for something new they could also relate to. Knowing that there is no one single product for everyone, WonderEight worked hard to keep Bey's motto: bringing the best and most relevant products to people, wherever they are and whatever their needs, with a deep understanding of the local nature of food: Bey's products are tailored to suit tastes and habits wherever you are.</p>",
-      client: "HB GROUP",
-      task: "total Brand Creation",
-      region: "Libya",
-      created: "2008",
-      category: "Branding",
-    )
-
-    3.times do |n|
-      work18.workgalleries.create!(
-        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/#{work18.title.parameterize}/img-#{n+2}.jpg"))
-      )
-    end
-
-    work19 = Work.create!(
       title: "Bob's Easy Diner",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/bobs-easy-diner.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/bobs-easy-diner.jpg")),
@@ -397,36 +401,12 @@ namespace :db do
     )
 
     5.times do |n|
-      work19.workgalleries.create!(
+      work18.workgalleries.create!(
         photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/bobs-easy-diner/img-#{n+2}.jpg"))
       )
     end
 
     work20 = Work.create!(
-      title: "Sacotel",
-      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/sacotel.jpg")),
-      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/sacotel.jpg")),
-      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/sacotel/sacotel-main.jpg")),
-      caption: "Sacotel / <em>Website</em>",
-      description: "<p>We were asked to create the website of Sacotel, the exclusive agent and distributor in Lebanon for major brands such as Panasonic from Japan, Urmet, Elkron, Aprimatic from Italy, and FDI Matelec from France. SACOTEL SAL has known a constant and steady growth expanding its line of business and weight on the markets it operates.</p>
-        <p>The main challenge was to ensure an equal presentation of all their brands along with the creation of an online shop where suppliers and consumers could purchase products.</p>
-        <p>The result was an easy to use interface, slick and neat with all major sections presented in a clear way on the homepage.</p>
-        <p>We focused on a smooth and simple user-experience rather than flashy animations and graphics. The end result was an attractive and professional looking interface, offering quick access to information and products.</p>",
-      client: "Hosri Group",
-      task: "Web Design",
-      region: "Lebanon",
-      created: "2011",
-      category: "Websites",
-      website: "http://sacotel.com"
-    )
-
-    3.times do |n|
-      work20.workgalleries.create!(
-        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/sacotel/img-#{n+2}.jpg"))
-      )
-    end
-
-    work21 = Work.create!(
       title: "An Nahar",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/anahar.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/anahar.jpg")),
@@ -443,12 +423,12 @@ namespace :db do
     )
 
     3.times do |n|
-      work21.workgalleries.create!(
+      work20.workgalleries.create!(
         photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/anahar/img-#{n+2}.jpg"))
       )
     end
 
-    work22 = Work.create!(
+    work21 = Work.create!(
       title: "Ma2too3a",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/ma2too3a.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/ma2too3a.jpg")),
@@ -465,12 +445,12 @@ namespace :db do
     )
 
     2.times do |n|
-      work22.workgalleries.create!(
+      work21.workgalleries.create!(
         photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/ma2too3a/img-#{n+2}.jpg"))
       )
     end
 
-    work23 = Work.create!(
+    work22 = Work.create!(
       title: "Picon",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/picon.jpg")),
       photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/picon.jpg")),
@@ -485,12 +465,12 @@ namespace :db do
     )
 
     1.times do |n|
-      work23.workgalleries.create!(
+      work22.workgalleries.create!(
         photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/picon/img-#{n+2}.jpg"))
       )
     end
 
-    work24 = Work.create!(
+    work25 = Work.create!(
       title: "Disney",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/disney.jpg")),
       #photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/disney.jpg")),
@@ -505,12 +485,12 @@ namespace :db do
     )
 
     # 2.times do |n|
-    #   work19.workgalleries.create!(
+    #   work18.workgalleries.create!(
     #     photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/picon/img-#{n+2}.jpg"))
     #   )
     # end
 
-    work24 = Work.create!(
+    work26 = Work.create!(
       title: "Dolsy",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/dolsy.jpg")),
       #photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/disney.jpg")),
