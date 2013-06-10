@@ -125,4 +125,7 @@
 	#workshop h2{
 		display: none;
 	}
+	#map{
+		margin-top: 25px;
+	}
 }
