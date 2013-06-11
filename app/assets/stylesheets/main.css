@@ -400,8 +400,12 @@ header.main{ padding: 0 5px; }
 #about #contact address{
 	float: left;
 	margin-right: 8%;
-	height: 65px;
+	margin-bottom: 20px;
 	width:25%;
+}
+
+#about #contact address.middle{
+	width: 160px;
 }
 
 #about #contact address.bold{
