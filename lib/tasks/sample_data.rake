@@ -515,7 +515,7 @@ namespace :db do
       task: "Total Brand Creation",
       region: "Lebanon",
       created: "2012",
-      category: "Websites",
+      category: "Branding",
     )
 
     3.times do |n|
