@@ -11,6 +11,6 @@ class WorksController < ApplicationController
 
   def show
     # @work = Work.where("title = ")
-    @work = Work.where("slug_title = ?", params[:project])
+    @work = Work.where("title_slug = ?", params[:project]).first
   end
 end

@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(:version => 20130606145401) do
 
   create_table "works", :force => true do |t|
     t.string   "title"
+    t.string   "title_slug"
     t.string   "task"
     t.string   "caption"
     t.string   "client"
