@@ -64,7 +64,7 @@
         <li class="<%= work.category %>">
           <div>
             <% if work.workgalleries.any? %>
-              <a href="/work/<%= work.title.parameterize %>/<%= work.id %>"
+              <a href="/work/<%= work.title.parameterize %>"
                  data-image="<%= image_path work.photo_over.url(:default) %>">
             <% else %>
               <a data-image="<%= image_path work.photo_over.url(:default) %>">

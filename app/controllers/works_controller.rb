@@ -10,6 +10,7 @@ class WorksController < ApplicationController
   end
 
   def show
-    @work = Work.find(params[:id])
+    # @work = Work.where("title = ")
+    @work = Work.where("slug_title = ?", params[:project])
   end
 end

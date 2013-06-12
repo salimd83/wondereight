@@ -10,7 +10,7 @@ Wondereight::Application.routes.draw do
   root to: "works#index"
   match "/works/:cat" => 'works#index'
   match "/about" => "about#index"
-  match "/work/:project/:id" => 'works#show'
+  match "/work/:project" => 'works#show'
   match "/press" => "articles#index"
   match "/eroom-training" => "about#eroom", as: "eroom"
   match "/library" => "about#library"
