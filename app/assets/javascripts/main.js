@@ -179,25 +179,12 @@ $(function(){
 		    .load(function() {
 					var margin = parseInt($(".page #portfolio li#showcase div").css("paddingBottom"))+parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
 
-					console.log($(".page #portfolio li a section").height() - (margin) - 1);
-					$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin) - 1)
+					console.log($(".page #portfolio li a section").height() - (margin) - 0);
+					$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin) - 0)
 				});
 	$(window).resize(function(){
 		margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
-		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin) - 1)
-	});
-
-	$("<img/>")
-		    .attr("src", $('.page #portfolio li img').attr("src"))
-		    .load(function() {
-					var margin = parseInt($(".page #portfolio li#showcase.bdw div").css("paddingBottom"))+parseInt($(".page #portfolio li#showcase.bdw div").css("paddingTop"));
-
-					console.log($(".page #portfolio li a section").height() - (margin) - 2);
-					$(".page #portfolio li#showcase.bdw div").height($(".page #portfolio li a section").height() - (margin) - 2)
-				});
-	$(window).resize(function(){
-		margin = parseInt($(".page #portfolio li#showcase.bdw div").css("paddingTop"));
-		$(".page #portfolio li#showcase.bdw div").height($(".page #portfolio li a section").height() - (margin) - 2)
+		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin) - 0)
 	});
 
 	if($('#slider').length){
