@@ -182,15 +182,23 @@ header.main{ padding: 0 5px; }
 		font-size: 12px;
 		text-decoration: underline;
 	}
+	.page #portfolio li#showcase.bdw div{
+		background: #ebebeb;
+	}
 	.page #portfolio li#showcase.bdw img{
 		width: 30%;
 		margin-bottom: 5px;
 	}
 	.page #portfolio li#showcase.bdw h2{
 		font-size: 20px;
+		color: #e41517;
+		border-top-color: #e41517;
 	}
 	.page #portfolio li#showcase.bdw ul{
 		margin-top: -60px;
+	}
+	.page #portfolio li#showcase.bdw div li a{
+		color: #000;
 	}
 	/* Page: prev/next */
 	a.prev,
