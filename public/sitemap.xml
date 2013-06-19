@@ -8,220 +8,214 @@
 
 	<url>
 		<loc>http://www.wondereight.com/</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>weekly</changefreq>		
-		<priority>1.0</priority>  
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/about</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>weekly</changefreq>		
-		<priority>0.8</priority>  
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
 	</url>
 
 	<url>
 		<loc>http://www.wondereight.com/library</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>weekly</changefreq>		
-		<priority>0.8</priority>  
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/eroom-training</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>weekly</changefreq>		
-		<priority>0.8</priority>  
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/workshop</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>weekly</changefreq>		
-		<priority>0.8</priority>  
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/works/Branding/</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>weekly</changefreq>		
-		<priority>0.6</priority>  
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/works/Websites/</loc>
-		<lastmod>2013-06-09T19:24:25+00:00</lastmod>		
-		<changefreq>weekly</changefreq>		
-		<priority>0.6</priority>  
+		<lastmod>2013-06-09T19:24:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/works/Restaurants/</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>weekly</changefreq>		
-		<priority>0.6</priority>  
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/works/Illustration/</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>weekly</changefreq>		
-		<priority>0.6</priority>  
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/showcase/branding/W8_Branding_Showcase.pdf</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.5</priority> 
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/showcase/websites/W8_Web_Showcase.pdf</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.5</priority> 
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/showcase/restaurants/W8_Restaurant_Showcase.pdf</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.5</priority> 
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/showcase/packaging/W8_Packaging_Showcase.pdf</loc>
-		<lastmod>2013-06-08T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.5</priority> 
-	</url>	
+		<lastmod>2013-06-08T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/baker-and-more/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority>  
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/origami/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/aspasuc/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/cozmo-cafe/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/falafel-aboulziz/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/uptown-966/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 
 	<url>
 		<loc>http://www.wondereight.com/work/classic-burger-joint/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
-	</url>
-	<url>
-		<loc>http://www.wondereight.com/work/atibaia/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/tomatomatic-pizza/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/castania/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/the-met/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/roger-s-diner/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/hoover-lebanon/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/dunlop-lebanon/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/idm/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/cafe-hamra/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/wokbox/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/alaia/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/bob-s-easy-diner/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/sacotel/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/an-nahar/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/ma2too3a/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 	<url>
 		<loc>http://www.wondereight.com/work/picon/</loc>
-		<lastmod>2013-06-12T10:24:25+00:00</lastmod>		
-		<changefreq>monthly</changefreq>		
-		<priority>0.4</priority> 
+		<lastmod>2013-06-12T10:24:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
 	</url>
 </urlset>
