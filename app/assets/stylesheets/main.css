@@ -150,7 +150,7 @@ header.main{ padding: 0 5px; }
 	.page #portfolio li#showcase div{
 		background: #000;
 		margin: 5px;
-		padding: 10%;
+		padding: 6% 10% 14% 10%;
 	}
 	.page #portfolio li#showcase div h2{
 		color: #fff;

@@ -177,14 +177,14 @@ $(function(){
 	$("<img/>")
 		    .attr("src", $('.page #portfolio li img').attr("src"))
 		    .load(function() {
-					var margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
+					var margin = parseInt($(".page #portfolio li#showcase div").css("paddingBottom"))+parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
 
-					console.log($(".page #portfolio li a section").height() - (margin*2) + 3);
-					$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) - 3)
+					console.log($(".page #portfolio li a section").height() - (margin) - 1);
+					$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin) - 1)
 				});
 	$(window).resize(function(){
 		margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
-		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin*2) + 3)
+		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin) - 1)
 	});
 
 	if($('#slider').length){
