@@ -177,14 +177,14 @@ $(function(){
 	$("<img/>")
 		    .attr("src", $('.page #portfolio li img').attr("src"))
 		    .load(function() {
-					var margin = parseInt($(".page #portfolio li#showcase div").css("paddingBottom"))+parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
-
-					console.log($(".page #portfolio li a section").height() - (margin) - 0);
-					$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin) - 0)
+					var margin = parseInt($(".page #portfolio li.showcase div").css("paddingBottom"))+parseInt($(".page #portfolio li.showcase div").css("paddingTop"));
+					$(".page #portfolio li.showcase div").height($(".page #portfolio li a section").height() - (margin) - 0)
+					$(".page #portfolio li.showcase#recruit div").height($(".page #portfolio li a section").height() - (margin) - 2)
 				});
 	$(window).resize(function(){
-		margin = parseInt($(".page #portfolio li#showcase div").css("paddingTop"));
-		$(".page #portfolio li#showcase div").height($(".page #portfolio li a section").height() - (margin) - 0)
+		margin = parseInt($(".page #portfolio li.showcase div").css("paddingTop"))+parseInt($(".page #portfolio li.showcase#recruit div").css("paddingTop"));
+		$(".page #portfolio li.showcase div").height($(".page #portfolio li a section").height() - (margin) - 0)
+		$(".page #portfolio li.showcase#recruit div").height($(".page #portfolio li a section").height() - (margin) - 2)
 	});
 
 	if($('#slider').length){

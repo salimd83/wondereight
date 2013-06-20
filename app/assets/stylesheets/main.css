@@ -147,12 +147,12 @@ header.main{ padding: 0 5px; }
 		font-weight: 300;
 		color: #ddd;
 	}
-	.page #portfolio li#showcase div{
+	.page #portfolio li.showcase div{
 		background: #000;
 		margin: 5px;
 		padding: 6% 10% 14% 10%;
 	}
-	.page #portfolio li#showcase div h2{
+	.page #portfolio li.showcase div h2{
 		color: #fff;
 		font-weight: bold;
 		font-size: 26px;
@@ -162,44 +162,57 @@ header.main{ padding: 0 5px; }
 		width: 48%;
 		float: left;
 	}
-	.page #portfolio li#showcase div ul{
+	.page #portfolio li.showcase div ul{
 		margin-top: 0px;
 		float: left;
 		width: 35%;
 		margin-left: 35px;
 	}
-	.page #portfolio li#showcase div li{
+	.page #portfolio li.showcase div li{
 		padding: 5px 0;
 		margin: 2px 0;
 		clear: both;
 	}
-	.page #portfolio li#showcase div li.last{
+	.page #portfolio li.showcase div li.last{
 		border: none;
 	}
-	.page #portfolio li#showcase div li a{
+	.page #portfolio li.showcase div li a{
 		padding: 0;
 		color: #fff;
 		font-size: 12px;
 		text-decoration: underline;
 	}
-	.page #portfolio li#showcase.bdw div{
-		background: #ebebeb;
+
+	.page #portfolio li.showcase#recruit div{
+		position: relative;
 	}
-	.page #portfolio li#showcase.bdw img{
-		width: 30%;
-		margin-bottom: 5px;
+	.page #portfolio li.showcase#recruit div h2{
+		width: auto;
+		margin: 10px 0;
+		line-height: 22px;
 	}
-	.page #portfolio li#showcase.bdw h2{
-		font-size: 20px;
-		color: #e41517;
-		border-top-color: #e41517;
+	.page #portfolio li.showcase#recruit div p{
+		color: #fff;
 	}
-	.page #portfolio li#showcase.bdw ul{
-		margin-top: -60px;
+	.page #portfolio li.showcase#recruit div p a{
+		color: #fff;
+		padding: 0;
 	}
-	.page #portfolio li#showcase.bdw div li a{
-		color: #000;
+
+	p.footer{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: #333;
+		color: #fff;
+		text-align: right;
+		padding: 4px 0;
+		text-indent: 10px;
+		direction: rtl;
+		font-size: 13px;
 	}
+
 	/* Page: prev/next */
 	a.prev,
 	a.next{
