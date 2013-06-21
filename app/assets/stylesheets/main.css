@@ -200,8 +200,8 @@ header.main{ padding: 0 5px; }
 		width: auto;
 		padding-top: 5px;
 		margin: 0;
-		margin-bottom: 5px;
-		line-height: 22px;
+		margin-bottom: 8px;
+		line-height: 26px;
 		border: none;
 	}
 	.page #portfolio li.showcase#recruit div p{
@@ -576,7 +576,7 @@ footer{
 #eroom #logo{
 	margin-bottom: 20px;
 }
-#eroom .col-2.first p{ margin-bottom: 20px; margin-right: 60px; }
+#eroom .col-2.first p{ margin-bottom: 20px; margin-right: 60px; font-size: 14px; }
 #eroom .col-2.last h2{ font-weight: bold; font-size: 28px; float: left; width: 100%; margin-bottom: 40px;}
 #eroom .col-2.last h2 span{ color: #ff0310; }
 #eroom .col-2.last h2 div{ width: 70%; float: left; }
