@@ -206,6 +206,7 @@ header.main{ padding: 0 5px; }
 	}
 	.page #portfolio li.showcase#recruit div p{
 		color: #fff;
+		clear: both;
 	}
 	.page #portfolio li.showcase#recruit div p a{
 		color: #fff;
@@ -213,12 +214,12 @@ header.main{ padding: 0 5px; }
 		text-decoration: underline;
 	}
 
-	p.footer{
+	.page #portfolio li.showcase#recruit p.footer{
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		width: 100%;
-		background: #222;
+		background: #242424;
 		color: #fff;
 		padding: 6px 0;
 		text-indent: 28px;
@@ -598,9 +599,13 @@ footer{
 	margin-top: 8px;
 }
 #eroom .third-col a{
-	color: #ff0310;
+	color: #fff;
 	font-size: 14px;
 	display: block;
 	margin-top: 5px;
 	margin-bottom: 10px;
+	background: #ff0310;
+	padding: 5px 8px;
+	float: left;
+	text-decoration: none;
 }
