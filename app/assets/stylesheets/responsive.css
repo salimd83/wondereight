@@ -85,9 +85,18 @@
 	#about div.socials{
 		width: 97%;
 	}
+
+	.third-col{
+		width: 100%;
+		clear: both;
+	}
+	#eroom .col-2{ width: 100%; }
+	#eroom .col-1{ width: 100%; }
 }
 
 @media screen and (max-width: 400px) {
+	#eroom .col-2{ width: 100%; }
+	#eroom .col-1{ width: 100%; }
 	a.prev,
 	a.next{
 		width: 30px;

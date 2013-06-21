@@ -117,8 +117,12 @@ header.main{ padding: 0 5px; }
 	/* Page: columns */
 	.col-2{ width:50%; }
 	.col-1{ width:25%; }
+	.third-col{ width: 30%; }
 	.col{ width: 100%; }
-	.col, .col-1, .col-2{ float: left; }
+	.col, .col-1, .col-2, .third-col{ float: left; }
+	.third-col{ margin-right: 20px; margin-bottom: 30px; }
+	.third-col.last{ margin-right: 0; }
+
 
 	/* Page: portfolio; */
 	.page #portfolio li{ float: left; width: 25%; }
@@ -186,10 +190,19 @@ header.main{ padding: 0 5px; }
 	.page #portfolio li.showcase#recruit div{
 		position: relative;
 	}
+	.page #portfolio li.showcase#recruit div hr{
+		width: 50%;
+		float: left;
+		border: none;
+		border-top:#fff 5px solid;
+	}
 	.page #portfolio li.showcase#recruit div h2{
 		width: auto;
-		margin: 10px 0;
+		padding-top: 5px;
+		margin: 0;
+		margin-bottom: 5px;
 		line-height: 22px;
+		border: none;
 	}
 	.page #portfolio li.showcase#recruit div p{
 		color: #fff;
@@ -197,6 +210,7 @@ header.main{ padding: 0 5px; }
 	.page #portfolio li.showcase#recruit div p a{
 		color: #fff;
 		padding: 0;
+		text-decoration: underline;
 	}
 
 	p.footer{
@@ -204,12 +218,10 @@ header.main{ padding: 0 5px; }
 		bottom: 0;
 		left: 0;
 		width: 100%;
-		background: #333;
+		background: #222;
 		color: #fff;
-		text-align: right;
-		padding: 4px 0;
-		text-indent: 10px;
-		direction: rtl;
+		padding: 6px 0;
+		text-indent: 28px;
 		font-size: 13px;
 	}
 
@@ -557,3 +569,38 @@ footer{
 	footer a{ color: #777; text-decoration: underline; line-height: 15px; }
 	footer .left{ float: left; width: 75%; line-height: 16px; }
 	footer .right{ float: right; width: 25%; text-align: right; }
+
+#eroom .col-2{
+	margin-top: 40px;
+}
+#eroom #logo{
+	margin-bottom: 20px;
+}
+#eroom .col-2.first p{ margin-bottom: 20px; margin-right: 60px; }
+#eroom .col-2.last h2{ font-weight: bold; font-size: 28px; float: left; width: 100%; margin-bottom: 40px;}
+#eroom .col-2.last h2 span{ color: #ff0310; }
+#eroom .col-2.last h2 div{ width: 70%; float: left; }
+#eroom .col-2.last h2 img{ width: 20%; float: right; }
+
+#eroom .third-col hr{
+	width: 30px;
+	border: none;
+	border-top: #000 2px solid;
+	float: left;
+	clear: both;
+	margin-bottom: 10px;
+}
+#eroom .third-col h3{ margin-bottom: 10px; font-weight: bold; }
+#eroom .third-col strong{
+	clear: both;
+	display: block;
+	font-size: 14px;
+	margin-top: 8px;
+}
+#eroom .third-col a{
+	color: #ff0310;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
