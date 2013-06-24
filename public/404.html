@@ -37,13 +37,94 @@
       font-weight: bold;
       text-decoration: none;
     }
+
+    /* Header */
+header.main{ padding: 0 5px; }
+  /* Header: Logo */
+  header.main #logo{ float: left; width: 20%; clear: both; }
+  /* Header: main navigation & socials */
+  header.main nav#menu,
+  header.main nav#socials{ float: right; text-align: right; }
+  header.main nav#menu ul,
+  header.main nav#socials ul{ float: right; }
+  header.main nav#menu ul li,
+  header.main nav#socials ul li{ float: left; position: relative; }
+  header.main nav#menu ul li a,
+  header.main nav#socials ul li a{ padding: 7px 3px; float: left; }
+  header.main nav#menu ul{ margin-right: 10px; }
+  header.main nav#menu ul li a{
+    /*font-family: 'Roboto', arial, sans-serif;
+    font-weight: bold;*/
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    padding: 9px 15px 11px 15px;
+    display: block;
+    margin: 0 1px;
+    border-top: #fff 2px solid;
+  }
+  header.main nav#menu ul li.selected a,
+  header.main nav#menu ul li a:hover{ border-top: #000 2px solid; }
+  header.main nav#socials ul li a{
+    -o-transition:.2s;
+    ms-transition:.2s;
+    moz-transition:.2s;
+    -webkit-transition:.2s;
+    /* ...and now for the proper property */
+    transition:.2s;
+    opacity: 1;
+  }
+  header.main nav#socials ul li a:hover{ opacity:0.5; }
+  header.main nav ul li#search{ margin-left: 25px; }
+  /* Header: submenu */
+  header.main nav#menu ul ul.sub{
+    position: absolute;
+    top: 36px;
+    left: 1px;
+    background: #000;
+    overflow: hidden;
+    height: 0;
+    z-index: 2000;
+  }
+  header.main nav#menu ul ul.sub li{  clear: both; border-bottom: #666 1px dotted; }
+  header.main nav#menu ul ul.sub li a{
+    padding: 8px 15px;
+    width: 140px;
+    text-align: left;
+    color: #e5e5e5;
+    font-size: 14px;
+    margin: 1px 0;
+    border: none;
+  }
+  header.main nav#menu ul ul.sub li a:hover{ background: #333; }
   </style>
 </head>
 
 <body>
+  <header class="main">
+    <div id="logo">
+      <a href="http://www.wondereight.com"><img src="images/wondereight-logo.gif" alt=""></a>
+    </div>
+    <nav id="menu">
+      <ul>
+        <li><a href="http://wondereight.com/about">About WonderEight</a></li>
+        <li>
+          <a href="http://www.wondereight.com//work">Our Work</a>
+          <ul class="sub works-filters">
+            <li><a href="http://www.wondereight.com/works/Branding">Branding</a></li>
+            <li><a href="http://www.wondereight.com/works/Websites/">Websites</a></li>
+            <li><a href="http://www.wondereight.com/works/Restaurants/">Restaurants</a></li>
+            <li><a href="http://www.wondereight.com/works/illustration">Illustration</a></li>
+          </ul>
+        </li>
+        <li><a href="http://www.wondereight.com/library">The Library</a></li>
+        <li><a href="http://www.wondereight.com/eroom">E/ROOM</a></li>
+        <li><a href="http://www.wondereight.com/workshp">The Workshop</a></li>
+      </ul>
+    </nav>
+  </header>
   <!-- This file lives in public/404.html -->
   <section id="page404" class="page">
-    <img src="/images/wondereight-logo.gif" alt="WonderEight ">
     <h1>404</h1>
     <h3>Oops! The page you have requested is not available.<h3>
     <p>If you typed the address, please verify that the spelling is correct</p>
