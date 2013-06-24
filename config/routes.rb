@@ -1,4 +1,7 @@
 Wondereight::Application.routes.draw do
+  %w(404 422 500).each do |code|
+    get code, :to => "errors#show", :code => code
+  end
   get "articles/index"
 
   get "about/index"
@@ -15,10 +18,6 @@ Wondereight::Application.routes.draw do
   match "/eroom-training" => "about#eroom", as: "eroom"
   match "/library" => "about#library"
   match "/workshop" => "about#workshop"
-
-  %w(404 422 500).each do |code|
-    get code, :to => "errors#show", :code => code
-  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
