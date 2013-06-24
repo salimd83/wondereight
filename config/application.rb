@@ -61,8 +61,5 @@ module Wondereight
 
     config.exceptions_app = self.routes
 
-    # Show full error reports and disable caching
-    #defaults: true for development, false for production
-    config.consider_all_requests_local = false
   end
 end
