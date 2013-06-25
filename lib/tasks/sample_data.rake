@@ -90,6 +90,28 @@ namespace :db do
       )
     end
 
+    work20 = Work.create!(
+      title: "An Nahar",
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/anahar.jpg")),
+      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/anahar.jpg")),
+      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/anahar/anahar-main.jpg")),
+      caption: "An Nahar / <em>Website</em>",
+      description: "<p>An Nahar is a leading Arabic-language daily newspaper published in Lebanon.</p>
+      <p>An Nahar news app is one of the first Arabic news apps to be designed for Windows 8.</p>
+      <p>WonderEight worked on the creation of this app since its very early stages as part of its</p>",
+      client: "Microsoft",
+      task: "Windows 8 App Design",
+      region: "Lebanon",
+      created: "2012",
+      category: "Websites",
+    )
+
+    3.times do |n|
+      work20.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/anahar/img-#{n+2}.jpg"))
+      )
+    end
+
     work5 = Work.create!(
       title: "Falafel Aboulziz",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/falafel-aboulziz.jpg")),
@@ -403,28 +425,6 @@ namespace :db do
     5.times do |n|
       work18.workgalleries.create!(
         photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/bobs-easy-diner/img-#{n+2}.jpg"))
-      )
-    end
-
-    work20 = Work.create!(
-      title: "An Nahar",
-      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/anahar.jpg")),
-      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/anahar.jpg")),
-      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/anahar/anahar-main.jpg")),
-      caption: "An Nahar / <em>Website</em>",
-      description: "<p>An Nahar is a leading Arabic-language daily newspaper published in Lebanon.</p>
-      <p>An Nahar news app is one of the first Arabic news apps to be designed for Windows 8.</p>
-      <p>WonderEight worked on the creation of this app since its very early stages as part of its</p>",
-      client: "Microsoft",
-      task: "Windows 8 App Design",
-      region: "Lebanon",
-      created: "2012",
-      category: "Websites",
-    )
-
-    3.times do |n|
-      work20.workgalleries.create!(
-        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/anahar/img-#{n+2}.jpg"))
       )
     end
 
