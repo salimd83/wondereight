@@ -16,9 +16,9 @@ Wondereight::Application.routes.draw do
   match "/library" => "about#library"
   match "/workshop" => "about#workshop"
 
-  unless Rails.application.config.consider_all_requests_local
-    match '*not_found', to: 'errors#error_404'
-  end
+  # unless Rails.application.config.consider_all_requests_local
+  #   match '*not_found', to: 'errors#error_404'
+  # end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
