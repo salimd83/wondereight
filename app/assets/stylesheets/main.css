@@ -203,6 +203,7 @@ header.main{ padding: 0 5px; }
 		margin-bottom: 8px;
 		line-height: 26px;
 		border: none;
+		clear: both;
 	}
 	.page #portfolio li.showcase#recruit div p{
 		color: #fff;
