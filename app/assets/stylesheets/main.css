@@ -219,13 +219,15 @@ header.main{ padding: 0 5px; }
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		width: 90%;
+		width: 100%;
 		background: #242424;
 		color: #fff;
 		padding: 6px 0;
 		text-indent: 0px;
 		font-size: 13px;
-		padding-left: 11% !important;
+	}
+	.page #portfolio li.showcase#recruit p.footer span{
+		padding-left: 10%;
 	}
 
 	/* Page: prev/next */
