@@ -49,6 +49,28 @@ namespace :db do
       )
     end
 
+    work21 = Work.create!(
+      title: "Ma2too3a",
+      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/ma2too3a.jpg")),
+      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/ma2too3a.jpg")),
+      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/ma2too3a/ma2too3a-main.jpg")),
+      caption: "Ma2too3a / <em>Website</em>",
+      description: "<p>ma2too3a! is a crowd sourced mobile application that offers real time location based news and traffic updates. It was deployed on the 5th of August, 2012 for iOS and later on for Android and windows devices. ma2too3a! allows any user to inform others about the whereabouts of traffic jams, and news such as protests, armed combat, or road blockage instantly.</p>
+      <p>We were asked to adapt an originally iOS based app to the new Microsoft design language.</p>
+      <p>After studying the main features and experience of the app we came up with a smooth and slick interface offering direct access to all the important features of the app.</p>",
+      client: "Microsoft",
+      task: "Windows 8 App Design",
+      region: "Lebanon",
+      created: "2012",
+      category: "Websites",
+    )
+
+    2.times do |n|
+      work21.workgalleries.create!(
+        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/ma2too3a/img-#{n+2}.jpg"))
+      )
+    end
+
     work3 = Work.create!(
       title: "Aspasuc",
       photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/aspasuc.jpg")),
@@ -425,28 +447,6 @@ namespace :db do
     5.times do |n|
       work18.workgalleries.create!(
         photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/bobs-easy-diner/img-#{n+2}.jpg"))
-      )
-    end
-
-    work21 = Work.create!(
-      title: "Ma2too3a",
-      photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/ma2too3a.jpg")),
-      photo_over: File.open(File.join(Rails.root, "app/assets/images/portfolio/hover/ma2too3a.jpg")),
-      photo_main: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/ma2too3a/ma2too3a-main.jpg")),
-      caption: "Ma2too3a / <em>Website</em>",
-      description: "<p>ma2too3a! is a crowd sourced mobile application that offers real time location based news and traffic updates. It was deployed on the 5th of August, 2012 for iOS and later on for Android and windows devices. ma2too3a! allows any user to inform others about the whereabouts of traffic jams, and news such as protests, armed combat, or road blockage instantly.</p>
-      <p>We were asked to adapt an originally iOS based app to the new Microsoft design language.</p>
-      <p>After studying the main features and experience of the app we came up with a smooth and slick interface offering direct access to all the important features of the app.</p>",
-      client: "Microsoft",
-      task: "Windows 8 App Design",
-      region: "Lebanon",
-      created: "2012",
-      category: "Websites",
-    )
-
-    2.times do |n|
-      work21.workgalleries.create!(
-        photo: File.open(File.join(Rails.root, "app/assets/images/portfolio/details/ma2too3a/img-#{n+2}.jpg"))
       )
     end
 
