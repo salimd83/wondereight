@@ -108,12 +108,12 @@ $(function(){
 	// 	}
 	// });
 
-	var config = {
-	     over: showInfo, // function = onMouseOver callback (REQUIRED)
-	     sensitivity: 1, // number = milliseconds delay before onMouseOut
-	     interval: 0,
-	     out: hideInfo // function = onMouseOut callback (REQUIRED)
-	};
+	// var config = {
+	//      over: showInfo, // function = onMouseOver callback (REQUIRED)
+	//      sensitivity: 1, // number = milliseconds delay before onMouseOut
+	//      interval: 0,
+	//      out: hideInfo // function = onMouseOut callback (REQUIRED)
+	// };
 
 
 	$('#portfolio a').hover(showInfo, hideInfo);
