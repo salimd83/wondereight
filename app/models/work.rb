@@ -1,5 +1,5 @@
 class Work < ActiveRecord::Base
-  attr_accessible :caption, :category, :client, :created, :description, :region, :task, :title, :photo, :photo_over, :photo_main, :website
+  attr_accessible :workgalleries, :caption, :category, :client, :created, :description, :region, :task, :title, :photo, :photo_over, :photo_main, :website
 
   has_many :workgalleries
 

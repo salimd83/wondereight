@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'pg', '0.15.1'
 gem 'faker', '1.0.1'
+gem 'devise'
+gem 'rails_admin'
 gem "paperclip", "~> 3.0"
 
 # Bundle edge Rails instead:

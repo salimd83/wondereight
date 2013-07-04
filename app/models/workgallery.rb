@@ -1,5 +1,5 @@
 class Workgallery < ActiveRecord::Base
-  attr_accessible :photo, :title
+  attr_accessible :photo, :title, :work_id
 
   belongs_to :work
 
